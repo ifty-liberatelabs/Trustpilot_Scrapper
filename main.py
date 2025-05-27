@@ -1,8 +1,26 @@
-from scraper import scrape_trustpilot_reviews
+from fastapi import FastAPI
+import logging
+import uvicorn
 
-base_url = 'https://www.trustpilot.com/review/www.mexipass.com'
+from api import scraper_ep
 
-reviews = scrape_trustpilot_reviews(base_url)
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+    handlers=[logging.StreamHandler()]
+)
 
-for review in reviews:
-    print(review)
+logger = logging.getLogger(__name__) 
+
+app = FastAPI(
+    title="Trustpilot Scraper API",
+    description="API to scrape reviews from Trustpilot.",
+    version="1.0.0"
+)
+
+
+app.include_router(scraper_ep.router, prefix="/api/v1/trustpilot", tags=["Trustpilot Scraper"])
+
+if __name__ == "__main__":
+    logger.info("Starting Uvicorn server programmatically for Trustpilot Scraper API.")
+    uvicorn.run(app, host="0.0.0.0", port=8000)
