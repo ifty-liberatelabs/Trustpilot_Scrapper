@@ -1,0 +1,882 @@
+[
+    {
+        "id": "63bc773b4d0773066a32da16",
+        "filtered": false,
+        "pending": false,
+        "text": "Very easy to rate",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2023-01-09T22:21:15.000Z",
+                "reviewSourceName": "AFSv2",
+                "verificationSource": "invitation",
+                "verificationLevel": "verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "Very easy to rate",
+        "likes": 0,
+        "source": "AFSv2",
+        "dates": {
+            "experiencedDate": "2023-01-06T08:00:00.000Z",
+            "publishedDate": "2023-01-09T22:21:15.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "5e331d27d1e2f96786a05a0b",
+            "displayName": "Blanca Becerra",
+            "imageUrl": "",
+            "numberOfReviews": 4,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": null,
+        "consumersReviewCountOnSameDomain": 4,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "63bbe3d54d0773066a3224f5",
+        "filtered": false,
+        "pending": false,
+        "text": "Everything was extremely safe, I was satisfied.",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": false,
+                "createdDateTime": "2023-01-09T11:52:21.000Z",
+                "reviewSourceName": "Organic",
+                "verificationSource": "invitation",
+                "verificationLevel": "not-verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "Everything was extremely safe",
+        "likes": 0,
+        "source": "Organic",
+        "dates": {
+            "experiencedDate": "2022-12-30T21:00:00.000Z",
+            "publishedDate": "2023-01-09T11:52:21.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "63bbe35f3a35ad00122def9a",
+            "displayName": "Harri V",
+            "imageUrl": "https://user-images.trustpilot.com/63bbe35f3a35ad00122def9a/73x73.png",
+            "numberOfReviews": 1,
+            "countryCode": "GB",
+            "hasImage": true,
+            "isVerified": false
+        },
+        "reply": null,
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "63bb7bca2338b6d417b3e3e7",
+        "filtered": false,
+        "pending": false,
+        "text": "I love it is very nice apps",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": false,
+                "createdDateTime": "2023-01-09T04:28:26.000Z",
+                "reviewSourceName": "Organic",
+                "verificationSource": "invitation",
+                "verificationLevel": "not-verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "I love it is very nice apps",
+        "likes": 0,
+        "source": "Organic",
+        "dates": {
+            "experiencedDate": "2023-01-08T21:00:00.000Z",
+            "publishedDate": "2023-01-09T04:28:26.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "63a0850d813c2f001308065b",
+            "displayName": "Zuber Saifi",
+            "imageUrl": "",
+            "numberOfReviews": 2,
+            "countryCode": "SA",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": null,
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "63a8b7ae2338b6d417a6f04a",
+        "filtered": false,
+        "pending": false,
+        "text": "fast and safe, thanks for your interest",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": false,
+                "createdDateTime": "2022-12-25T22:50:54.000Z",
+                "reviewSourceName": "Organic",
+                "verificationSource": "invitation",
+                "verificationLevel": "not-verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "fast and safe",
+        "likes": 0,
+        "source": "Organic",
+        "dates": {
+            "experiencedDate": "2022-12-23T21:00:00.000Z",
+            "publishedDate": "2022-12-25T22:50:54.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "63a8b72bf18d3f0012802ea0",
+            "displayName": "Max Burgess",
+            "imageUrl": "https://user-images.trustpilot.com/63a8b72bf18d3f0012802ea0/73x73.png",
+            "numberOfReviews": 1,
+            "countryCode": "UZ",
+            "hasImage": true,
+            "isVerified": false
+        },
+        "reply": null,
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "63a8657e4d0773066a24c9b9",
+        "filtered": false,
+        "pending": false,
+        "text": "Website is easy to use and makes the process of quoting .",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": false,
+                "createdDateTime": "2022-12-25T17:00:15.000Z",
+                "reviewSourceName": "Organic",
+                "verificationSource": "invitation",
+                "verificationLevel": "not-verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "Process is easy and quick!",
+        "likes": 0,
+        "source": "Organic",
+        "dates": {
+            "experiencedDate": "2022-12-24T22:00:00.000Z",
+            "publishedDate": "2022-12-25T17:00:15.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "622b308e1fa4c80012a53a47",
+            "displayName": "Saad Almosa",
+            "imageUrl": "https://user-images.trustpilot.com/622b308e1fa4c80012a53a47/73x73.png",
+            "numberOfReviews": 14,
+            "countryCode": "EG",
+            "hasImage": true,
+            "isVerified": false
+        },
+        "reply": null,
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "63a3a5402338b6d417a38e36",
+        "filtered": false,
+        "pending": false,
+        "text": "this application is easy to use and makes the process of quoting. Lets me know if I am missing information so I am able to complete application.",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": false,
+                "createdDateTime": "2022-12-22T02:30:57.000Z",
+                "reviewSourceName": "Organic",
+                "verificationSource": "invitation",
+                "verificationLevel": "not-verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "this application is easy to use and…",
+        "likes": 3,
+        "source": "Organic",
+        "dates": {
+            "experiencedDate": "2022-12-21T04:00:00.000Z",
+            "publishedDate": "2022-12-22T02:30:57.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "63a12442f510a20012bf0f65",
+            "displayName": "Ana stefany paulino",
+            "imageUrl": "",
+            "numberOfReviews": 5,
+            "countryCode": "DO",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": null,
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "63a334f62338b6d417a31ba8",
+        "filtered": false,
+        "pending": false,
+        "text": "The quote and customer service is really great",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2022-12-21T18:31:50.000Z",
+                "reviewSourceName": "AFSv2",
+                "verificationSource": "invitation",
+                "verificationLevel": "verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "The quote and customer service is…",
+        "likes": 0,
+        "source": "AFSv2",
+        "dates": {
+            "experiencedDate": "2022-12-15T08:00:00.000Z",
+            "publishedDate": "2022-12-21T18:31:50.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "63a334f419faf00012952bd4",
+            "displayName": "GLORIA FLORIAN",
+            "imageUrl": "",
+            "numberOfReviews": 1,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": null,
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "63a205cc2338b6d417a21513",
+        "filtered": false,
+        "pending": false,
+        "text": "Very fast getting us approved to write coverage and was very quick to respond on questions I had",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2022-12-20T20:58:20.000Z",
+                "reviewSourceName": "AFSv2",
+                "verificationSource": "invitation",
+                "verificationLevel": "verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "Quick Response",
+        "likes": 1,
+        "source": "AFSv2",
+        "dates": {
+            "experiencedDate": "2022-12-14T05:00:00.000Z",
+            "publishedDate": "2022-12-20T20:58:20.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "63a205cba2cb2e00149cedac",
+            "displayName": "Brianne M Walsh",
+            "imageUrl": "",
+            "numberOfReviews": 1,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": null,
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "63a0d4252338b6d417a102e4",
+        "filtered": false,
+        "pending": false,
+        "text": "Website is easy to use and makes the process of quoting and binding the policy easy. Lets me know if I am missing information so I am able to complete application. Really like to use! Hope to use more often!",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2022-12-19T23:14:13.000Z",
+                "reviewSourceName": "AFSv2",
+                "verificationSource": "invitation",
+                "verificationLevel": "verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "Process is easy and quick!",
+        "likes": 3,
+        "source": "AFSv2",
+        "dates": {
+            "experiencedDate": "2022-12-15T08:00:00.000Z",
+            "publishedDate": "2022-12-19T23:14:13.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "61b8e7b7b58ce30012335b4c",
+            "displayName": "Noemi R",
+            "imageUrl": "",
+            "numberOfReviews": 2,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": null,
+        "consumersReviewCountOnSameDomain": 2,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "63a09e674d0773066a1ec927",
+        "filtered": false,
+        "pending": false,
+        "text": "I love working with this company, my clients are very pleased. My policies issue fast and the system is extremely friendly user.",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2022-12-19T19:24:55.000Z",
+                "reviewSourceName": "AFSv2",
+                "verificationSource": "invitation",
+                "verificationLevel": "verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "I love working with this company",
+        "likes": 1,
+        "source": "AFSv2",
+        "dates": {
+            "experiencedDate": "2022-12-16T06:00:00.000Z",
+            "publishedDate": "2022-12-19T19:24:55.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "61c3a3f1992da6001269af89",
+            "displayName": "Jessica  Tanguma Dominguez",
+            "imageUrl": "",
+            "numberOfReviews": 2,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": null,
+        "consumersReviewCountOnSameDomain": 2,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "63a099cf2338b6d417a0be21",
+        "filtered": false,
+        "pending": false,
+        "text": "Technology super easy to write the policy",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2022-12-19T19:05:19.000Z",
+                "reviewSourceName": "AFSv2",
+                "verificationSource": "invitation",
+                "verificationLevel": "verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "Process",
+        "likes": 0,
+        "source": "AFSv2",
+        "dates": {
+            "experiencedDate": "2022-12-08T08:00:00.000Z",
+            "publishedDate": "2022-12-19T19:05:19.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "60d4b2c9edb34f0014bca90c",
+            "displayName": "Gengyzkan Martinez",
+            "imageUrl": "",
+            "numberOfReviews": 2,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": null,
+        "consumersReviewCountOnSameDomain": 2,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "639fc72ceb0ad848990f84e0",
+        "filtered": false,
+        "pending": false,
+        "text": "Fairly easy to write, this was just the first time I had written one in a long time and the process had changed some.  With a little help from my co-workers I got it done fairly quickly and the client was on his way.  The commission rate is excellent and anytime I have needed to speak with someone at MexiPass they have been most helpful.",
+        "rating": 4,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2022-12-19T04:06:36.000Z",
+                "reviewSourceName": "AFSv2",
+                "verificationSource": "invitation",
+                "verificationLevel": "verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "Fairly easy to write",
+        "likes": 6,
+        "source": "AFSv2",
+        "dates": {
+            "experiencedDate": "2022-12-09T08:00:00.000Z",
+            "publishedDate": "2022-12-19T04:06:36.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "639fc72a554ed70012b50875",
+            "displayName": "Patricia G. Jenkins",
+            "imageUrl": "",
+            "numberOfReviews": 1,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": null,
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "639f309fd075435bd8dffdcf",
+        "filtered": false,
+        "pending": false,
+        "text": "I have been using Mexipass for 10 years now. It has big variety of options to insure. \nThe most recent policy sold was to insure a Mexican registered vehicle in Mexico owned   By a Mexican citizen.  The coverage list is very good and with high combined single limits for liability. \nUsually my policies are written when submitted, but this being a unique policy it required underwriter review. I submitted in the evening and had an approval the next morning. Very fast response. \nI am very satisfied with Mexipass. The system is easy to use, they’re always friendly, and the coverage options are big.",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2022-12-18T17:24:15.000Z",
+                "reviewSourceName": "AFSv2",
+                "verificationSource": "invitation",
+                "verificationLevel": "verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "I have been using Mexipass for 10 years…",
+        "likes": 3,
+        "source": "AFSv2",
+        "dates": {
+            "experiencedDate": "2022-12-14T08:00:00.000Z",
+            "publishedDate": "2022-12-18T17:24:15.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "639f309d31e5a40012b2ed72",
+            "displayName": "Sergio E. Cahuantzi",
+            "imageUrl": "",
+            "numberOfReviews": 1,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": null,
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "639b925bd075435bd8dd7471",
+        "filtered": false,
+        "pending": false,
+        "text": "The rater system is great and easy at the same time, and the coverage is the best for our customers in Mexico.",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2022-12-15T23:32:11.000Z",
+                "reviewSourceName": "AFSv2",
+                "verificationSource": "invitation",
+                "verificationLevel": "verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "You can trust Mexipass for your next vacations in Mexico",
+        "likes": 0,
+        "source": "AFSv2",
+        "dates": {
+            "experiencedDate": "2022-12-12T08:00:00.000Z",
+            "publishedDate": "2022-12-15T23:32:11.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "639b925a123b1f00121c88a5",
+            "displayName": "Dante G. Cardosa",
+            "imageUrl": "",
+            "numberOfReviews": 1,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": null,
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "6399e9f9eb0ad848990aee6c",
+        "filtered": false,
+        "pending": false,
+        "text": "Love Mexipass! Have used them for years and they have always been super straight forward and easy to work with. Their platform is user-friendly and offers great confidence. Anytime I have had to call in due to an error on my part, their customer service is on point! \nTheir rates are great and for the past 10 years I have never looked elsewhere.",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2022-12-14T17:21:29.000Z",
+                "reviewSourceName": "AFSv2",
+                "verificationSource": "invitation",
+                "verificationLevel": "verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "Love Mexipass",
+        "likes": 3,
+        "source": "AFSv2",
+        "dates": {
+            "experiencedDate": "2022-12-14T08:00:00.000Z",
+            "publishedDate": "2022-12-14T17:21:29.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "6399e9f822d5b70013c5cb36",
+            "displayName": "Marisol Alvarez",
+            "imageUrl": "",
+            "numberOfReviews": 1,
+            "countryCode": "MX",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": null,
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "6398e4b1d075435bd8daf72e",
+        "filtered": false,
+        "pending": false,
+        "text": "Easy to rate and easy to explain to my customers",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2022-12-13T22:46:41.000Z",
+                "reviewSourceName": "AFSv2",
+                "verificationSource": "invitation",
+                "verificationLevel": "verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "Easy to rate and easy to explain to my…",
+        "likes": 0,
+        "source": "AFSv2",
+        "dates": {
+            "experiencedDate": "2022-12-07T08:00:00.000Z",
+            "publishedDate": "2022-12-13T22:46:41.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "5fe0e28e70f49f001932091e",
+            "displayName": "Aldo G. Huezo Interiano",
+            "imageUrl": "",
+            "numberOfReviews": 3,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": null,
+        "consumersReviewCountOnSameDomain": 3,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "6397ca48eb0ad84899090042",
+        "filtered": false,
+        "pending": false,
+        "text": "Excellent customer service and knowledgeable",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2022-12-13T02:41:44.000Z",
+                "reviewSourceName": "AFSv2",
+                "verificationSource": "invitation",
+                "verificationLevel": "verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "Excellent customer service and…",
+        "likes": 0,
+        "source": "AFSv2",
+        "dates": {
+            "experiencedDate": "2022-12-10T08:00:00.000Z",
+            "publishedDate": "2022-12-13T02:41:44.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "6397ca46930ecc001208ccdd",
+            "displayName": "Maria V",
+            "imageUrl": "",
+            "numberOfReviews": 2,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": null,
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "6397ae34eb0ad8489908f3e1",
+        "filtered": false,
+        "pending": false,
+        "text": "rate and wide market clients feel great to insured thir properties from USA to México",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2022-12-13T00:41:56.000Z",
+                "reviewSourceName": "AFSv2",
+                "verificationSource": "invitation",
+                "verificationLevel": "verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "rate",
+        "likes": 0,
+        "source": "AFSv2",
+        "dates": {
+            "experiencedDate": "2022-12-12T06:00:00.000Z",
+            "publishedDate": "2022-12-13T00:41:56.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "5a5fde570000ff000b026992",
+            "displayName": "Carlos from Antonio's Insurance Agency",
+            "imageUrl": "",
+            "numberOfReviews": 3,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": null,
+        "consumersReviewCountOnSameDomain": 3,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "63979d01eb0ad8489908e6a1",
+        "filtered": false,
+        "pending": false,
+        "text": "Easy to use and great coverage\ncustomer enjoy the different coverage and availability from claim dept",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2022-12-12T23:28:33.000Z",
+                "reviewSourceName": "AFSv2",
+                "verificationSource": "invitation",
+                "verificationLevel": "verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "Great coverage for Mexico",
+        "likes": 0,
+        "source": "AFSv2",
+        "dates": {
+            "experiencedDate": "2022-12-09T08:00:00.000Z",
+            "publishedDate": "2022-12-12T23:28:33.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "60e39ac8c9011c0011124844",
+            "displayName": "Flor Hernandez",
+            "imageUrl": "",
+            "numberOfReviews": 2,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": null,
+        "consumersReviewCountOnSameDomain": 2,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "6397697beb0ad8489908aa78",
+        "filtered": false,
+        "pending": false,
+        "text": "Jorge is always very helpful and quick to respond!",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2022-12-12T19:48:43.000Z",
+                "reviewSourceName": "AFSv2",
+                "verificationSource": "invitation",
+                "verificationLevel": "verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "Jorge is always very helpful and quick…",
+        "likes": 0,
+        "source": "AFSv2",
+        "dates": {
+            "experiencedDate": "2022-12-09T06:00:00.000Z",
+            "publishedDate": "2022-12-12T19:48:43.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "63976979e5a1a500148ddaf7",
+            "displayName": "Julie W Laverty",
+            "imageUrl": "",
+            "numberOfReviews": 1,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": null,
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    }
+]
