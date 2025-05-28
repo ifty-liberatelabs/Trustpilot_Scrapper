@@ -3,21 +3,38 @@ from bs4 import BeautifulSoup
 import json
 import time
 import logging
-from urllib.parse import urlparse, parse_qs, urlencode
+from urllib.parse import urlparse, urlencode
+from typing import Optional, List, Dict, Any 
 
 logger = logging.getLogger(__name__)
 
+def _prepare_url_for_page(base_url_str: str, page_num: int, languages: Optional[str] = "all") -> str:
 
-def get_company_profile_data(url: str, session: requests.Session):
+    parsed_original_url = urlparse(base_url_str)
+
+    clean_base_url_for_query = parsed_original_url._replace(query="", fragment="").geturl()
+
+    query_params_to_set: Dict[str, Any] = {}
+    query_params_to_set['page'] = str(page_num)
+    if languages:
+        query_params_to_set['languages'] = languages
+            
+    new_query_string = urlencode(query_params_to_set, doseq=False) 
+    
+    final_parsed_url = urlparse(clean_base_url_for_query)
+    return final_parsed_url._replace(query=new_query_string).geturl()
+
+
+def get_company_profile_data(url: str, session: requests.Session) -> tuple[Optional[Dict[str, Any]], Optional[int]]:
     logger.info(f"Attempting to fetch company profile data from: {url}")
     try:
         req = session.get(url)
         req.raise_for_status()
         logger.debug(f"Successfully fetched page content for profile data from {url}. Status code: {req.status_code}")
-        time.sleep(1)
+        time.sleep(1) 
 
-        soup = BeautifulSoup(req.text, 'html.parser')
-        script_tag = soup.find("script", id="__NEXT_DATA__")
+        soup = BeautifulSoup(req.text, 'lxml')
+        script_tag = soup.find("script", id="__NEXT_DATA__", type="application/json")
 
         if not script_tag or not script_tag.string:
             logger.warning(f"Could not find __NEXT_DATA__ script tag or it's empty on {url} for profile data.")
@@ -31,7 +48,7 @@ def get_company_profile_data(url: str, session: requests.Session):
         filters_data = page_props.get("filters", {}).get("pagination", {})
         if filters_data and "totalPages" in filters_data:
             total_review_pages = filters_data["totalPages"]
-            logger.info(f"Found total review pages from initial load: {total_review_pages}")
+            logger.info(f"Found total review pages from profile load ({url}): {total_review_pages}")
 
         if not business_unit_data:
             logger.warning(f"No 'businessUnit' key found in pageProps for profile data from {url}. Page props (first 500 chars): {str(page_props)[:500]}")
@@ -44,11 +61,6 @@ def get_company_profile_data(url: str, session: requests.Session):
             "numberOfReviews": business_unit_data.get("numberOfReviews"),
             "trustScore": business_unit_data.get("trustScore"),
             "websiteUrl": business_unit_data.get("websiteUrl"),
-            "websiteTitle": business_unit_data.get("websiteTitle"),
-            "profileImageUrl": business_unit_data.get("profileImageUrl"),
-            "customHeaderUrl": business_unit_data.get("customHeaderUrl"),
-            "promotion": business_unit_data.get("promotion"),
-            "hideCompetitorModule": business_unit_data.get("hideCompetitorModule"),
             "stars": business_unit_data.get("stars")
         }
         
@@ -61,13 +73,14 @@ def get_company_profile_data(url: str, session: requests.Session):
         logger.error(f"An unexpected error occurred during requests for profile data from {url}: {req_err}")
     except json.JSONDecodeError as json_err:
         logger.error(f"Failed to decode JSON for profile data from {url}: {json_err}")
-        if 'script_tag' in locals() and script_tag and script_tag.string:
+        if 'script_tag' in locals() and script_tag and script_tag.string: # type: ignore
             logger.debug(f"Content that failed to parse (profile data): {script_tag.string[:500]}...")
     except Exception as e:
         logger.error(f"An unexpected error occurred in get_company_profile_data for {url}: {e}", exc_info=True)
     return None, None
 
-def get_reviews_from_page(url: str, session: requests.Session):
+
+def get_reviews_from_page(url: str, session: requests.Session) -> tuple[List[Dict[str, Any]], Optional[int]]:
     logger.info(f"Attempting to fetch reviews from: {url}")
     try:
         req = session.get(url)
@@ -75,8 +88,8 @@ def get_reviews_from_page(url: str, session: requests.Session):
         logger.debug(f"Successfully fetched page content for reviews from {url}. Status code: {req.status_code}")
         time.sleep(2)
 
-        soup = BeautifulSoup(req.text, 'html.parser')
-        reviews_script_tag = soup.find("script", id="__NEXT_DATA__")
+        soup = BeautifulSoup(req.text, 'lxml')
+        reviews_script_tag = soup.find("script", id="__NEXT_DATA__", type="application/json")
 
         if not reviews_script_tag or not reviews_script_tag.string:
             logger.warning(f"Could not find __NEXT_DATA__ script tag or it's empty on {url} for reviews.")
@@ -104,7 +117,7 @@ def get_reviews_from_page(url: str, session: requests.Session):
         logger.error(f"An unexpected error occurred during requests for reviews from {url}: {req_err}")
     except json.JSONDecodeError as json_err:
         logger.error(f"Failed to decode JSON for reviews from {url}: {json_err}")
-        if 'reviews_script_tag' in locals() and reviews_script_tag and reviews_script_tag.string:
+        if 'reviews_script_tag' in locals() and reviews_script_tag and reviews_script_tag.string: # type: ignore
             logger.debug(f"Content that failed to parse (reviews): {reviews_script_tag.string[:500]}...")
     except Exception as e:
         logger.error(f"An unexpected error occurred in get_reviews_from_page for {url}: {e}", exc_info=True)
