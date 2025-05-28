@@ -1,7 +1,6 @@
 from fastapi import FastAPI
 import logging
 import uvicorn
-
 from api import scraper_ep
 
 logging.basicConfig(
