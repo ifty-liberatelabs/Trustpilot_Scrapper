@@ -1,5 +1,5 @@
 fastapi
-uvicorn[standard]
+uvicorn
 requests
 beautifulsoup4
 pydantic
@@ -8,3 +8,4 @@ lxml
 httpx
 tenacity
 aiofiles
+python-multipart
