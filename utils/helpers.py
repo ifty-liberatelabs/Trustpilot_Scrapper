@@ -43,7 +43,11 @@ async def fetch_page_fresh_ip(page_url: str, initial_user_agent: str, user_agent
     Logs these special retry cycles.
     """
     in_special_retry_cycle = False
+<<<<<<< HEAD
     triggering_status_for_cycle = None
+=======
+    triggering_status_for_cycle = None # To store what status (403/502) started this cycle
+>>>>>>> 2ad67fdfa566b449037c14b3999bb9aca8197795
     proxy_used = None
     ua_used = initial_user_agent
 
@@ -70,7 +74,11 @@ async def fetch_page_fresh_ip(page_url: str, initial_user_agent: str, user_agent
                     page_url, client, user_agent_string=ua_used
                 )
             
+<<<<<<< HEAD
             if in_special_retry_cycle:
+=======
+            if in_special_retry_cycle: # Log success if it's a recovery from a previous 403/502
+>>>>>>> 2ad67fdfa566b449037c14b3999bb9aca8197795
                 await _append_retry_log(page_url, str(proxy_used), ua_used,
                                         attempt + 1, triggering_status_for_cycle, "✅")
             return reviews, proxy_used
@@ -101,4 +109,8 @@ async def fetch_page_fresh_ip(page_url: str, initial_user_agent: str, user_agent
                                         attempt + 1, triggering_status_for_cycle, f"❌ ({type(e_other).__name__})")
             raise 
             
+<<<<<<< HEAD
     return [], None 
+=======
+    return [], None 
+>>>>>>> 2ad67fdfa566b449037c14b3999bb9aca8197795
