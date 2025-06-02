@@ -1,0 +1,894 @@
+[
+    {
+        "id": "663ef68417c330856ce06233",
+        "filtered": false,
+        "pending": false,
+        "text": "Es bueno lo recomiendo",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2024-05-11T06:39:33.000Z",
+                "reviewSourceName": "InvitationApi",
+                "verificationSource": "invitation",
+                "verificationLevel": "verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "Es bueno lo recomiendo",
+        "likes": 0,
+        "source": "InvitationApi",
+        "dates": {
+            "experiencedDate": "2024-05-08T00:00:00.000Z",
+            "publishedDate": "2024-05-11T06:39:33.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "663ef682d5fa24284b117d39",
+            "displayName": "Alberto",
+            "imageUrl": "",
+            "numberOfReviews": 1,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": null,
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": 1,
+        "productReviews": [],
+        "language": "es",
+        "location": {
+            "id": "53b0d6a4-41a0-42e1-9f71-c89f9f1b007c",
+            "name": "Meetup Dallas",
+            "urlFormattedName": "meetup-dallas"
+        }
+    },
+    {
+        "id": "663eedd1e0f9626764408c44",
+        "filtered": false,
+        "pending": false,
+        "text": "buen servisio ",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2024-05-11T06:02:25.000Z",
+                "reviewSourceName": "InvitationApi",
+                "verificationSource": "invitation",
+                "verificationLevel": "verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "cooll",
+        "likes": 0,
+        "source": "InvitationApi",
+        "dates": {
+            "experiencedDate": "2024-04-22T00:00:00.000Z",
+            "publishedDate": "2024-05-11T06:02:25.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "663eedd0cb6e8dd58cac5e2d",
+            "displayName": "Martin",
+            "imageUrl": "",
+            "numberOfReviews": 1,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": null,
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "es",
+        "location": null
+    },
+    {
+        "id": "663ee7fd425be7e550efca89",
+        "filtered": false,
+        "pending": false,
+        "text": "Muy eficiente su servicio en recargas",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2024-05-11T05:37:33.000Z",
+                "reviewSourceName": "InvitationApi",
+                "verificationSource": "invitation",
+                "verificationLevel": "verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "Muy eficiente su servicio en recargas",
+        "likes": 0,
+        "source": "InvitationApi",
+        "dates": {
+            "experiencedDate": "2024-05-10T00:00:00.000Z",
+            "publishedDate": "2024-05-11T05:37:33.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "663ee7fcd5fa2498c711799a",
+            "displayName": "Milagros",
+            "imageUrl": "",
+            "numberOfReviews": 1,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": null,
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "es",
+        "location": null
+    },
+    {
+        "id": "663ed4e0c01c11f944aa76f2",
+        "filtered": false,
+        "pending": false,
+        "text": "La rapidez  y efectividad de las transacciones ",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2024-05-11T04:16:00.000Z",
+                "reviewSourceName": "InvitationApi",
+                "verificationSource": "invitation",
+                "verificationLevel": "verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "Buen servicio",
+        "likes": 0,
+        "source": "InvitationApi",
+        "dates": {
+            "experiencedDate": "2024-05-05T00:00:00.000Z",
+            "publishedDate": "2024-05-11T04:16:00.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "663ed4df6da07c7cfd1ac444",
+            "displayName": "Jimmy",
+            "imageUrl": "",
+            "numberOfReviews": 1,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": null,
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "es",
+        "location": null
+    },
+    {
+        "id": "663ec8f70401cd9c735806ff",
+        "filtered": false,
+        "pending": false,
+        "text": "La verdad la recomiendo es muy buena ",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2024-05-11T03:25:12.000Z",
+                "reviewSourceName": "InvitationApi",
+                "verificationSource": "invitation",
+                "verificationLevel": "verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "La verdad la recomiendo es muy buena",
+        "likes": 0,
+        "source": "InvitationApi",
+        "dates": {
+            "experiencedDate": "2024-05-09T00:00:00.000Z",
+            "publishedDate": "2024-05-11T03:25:12.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "663ec8f79aac912a14c4f843",
+            "displayName": "Ansony",
+            "imageUrl": "",
+            "numberOfReviews": 1,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": null,
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "es",
+        "location": null
+    },
+    {
+        "id": "663ebd0cedab8a6f34136bd5",
+        "filtered": false,
+        "pending": false,
+        "text": "Me parece perfecto",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2024-05-11T02:34:21.000Z",
+                "reviewSourceName": "InvitationApi",
+                "verificationSource": "invitation",
+                "verificationLevel": "verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "Me parece perfecto muy buen banco ",
+        "likes": 0,
+        "source": "InvitationApi",
+        "dates": {
+            "experiencedDate": "2024-05-07T00:00:00.000Z",
+            "publishedDate": "2024-05-11T02:34:21.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "663ebd0bcb6e8dc25fac5050",
+            "displayName": "Jose",
+            "imageUrl": "",
+            "numberOfReviews": 1,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": null,
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "es",
+        "location": null
+    },
+    {
+        "id": "663eb0340b87dbc8a49fbe30",
+        "filtered": false,
+        "pending": false,
+        "text": "Mala atención ",
+        "rating": 1,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2024-05-11T01:39:33.000Z",
+                "reviewSourceName": "InvitationApi",
+                "verificationSource": "invitation",
+                "verificationLevel": "verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "Mala atención",
+        "likes": 0,
+        "source": "InvitationApi",
+        "dates": {
+            "experiencedDate": "2024-05-10T00:00:00.000Z",
+            "publishedDate": "2024-05-11T01:39:33.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "663eb033d5fa24883b1167ed",
+            "displayName": "Erlin",
+            "imageUrl": "",
+            "numberOfReviews": 1,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": null,
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "es",
+        "location": null
+    },
+    {
+        "id": "663eab2a38184534118f9e13",
+        "filtered": false,
+        "pending": false,
+        "text": "Exelente. App ",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2024-05-11T01:18:03.000Z",
+                "reviewSourceName": "InvitationApi",
+                "verificationSource": "invitation",
+                "verificationLevel": "verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "Exelente ",
+        "likes": 0,
+        "source": "InvitationApi",
+        "dates": {
+            "experiencedDate": "2024-05-10T00:00:00.000Z",
+            "publishedDate": "2024-05-11T01:18:03.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "663eab299aac91bc3dc4ec7d",
+            "displayName": "Exelente app",
+            "imageUrl": "",
+            "numberOfReviews": 1,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": null,
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "es",
+        "location": null
+    },
+    {
+        "id": "663e96c7f07dddc4c1c1fe7c",
+        "filtered": false,
+        "pending": false,
+        "text": "Para mi una muy buena experiencia agrdesida con la atencion",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2024-05-10T23:51:04.000Z",
+                "reviewSourceName": "InvitationApi",
+                "verificationSource": "invitation",
+                "verificationLevel": "verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "Exelente",
+        "likes": 0,
+        "source": "InvitationApi",
+        "dates": {
+            "experiencedDate": "2024-05-10T00:00:00.000Z",
+            "publishedDate": "2024-05-10T23:51:04.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "663e96c79aac913b6ec4e1ce",
+            "displayName": "Silvana",
+            "imageUrl": "",
+            "numberOfReviews": 1,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": null,
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": 1,
+        "productReviews": [],
+        "language": "es",
+        "location": {
+            "id": "53b0d6a4-41a0-42e1-9f71-c89f9f1b007c",
+            "name": "Meetup Dallas",
+            "urlFormattedName": "meetup-dallas"
+        }
+    },
+    {
+        "id": "663e8783e16524ea6b2489e0",
+        "filtered": false,
+        "pending": false,
+        "text": "Excelente Banca muy rápido y fácil y Segura ",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2024-05-10T22:45:56.000Z",
+                "reviewSourceName": "InvitationApi",
+                "verificationSource": "invitation",
+                "verificationLevel": "verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "Excelentes banca muy Rápido ",
+        "likes": 0,
+        "source": "InvitationApi",
+        "dates": {
+            "experiencedDate": "2024-05-07T00:00:00.000Z",
+            "publishedDate": "2024-05-10T22:45:56.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "663e8783cb6e8d0932ac3484",
+            "displayName": "Carlos",
+            "imageUrl": "",
+            "numberOfReviews": 1,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": null,
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "es",
+        "location": null
+    },
+    {
+        "id": "663e87813da93ecf666cfce7",
+        "filtered": false,
+        "pending": false,
+        "text": "El buen servicio ",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2024-05-10T22:45:54.000Z",
+                "reviewSourceName": "InvitationApi",
+                "verificationSource": "invitation",
+                "verificationLevel": "verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "El buen servicio",
+        "likes": 0,
+        "source": "InvitationApi",
+        "dates": {
+            "experiencedDate": "2024-05-10T00:00:00.000Z",
+            "publishedDate": "2024-05-10T22:45:54.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "663e87806da07cb5741aa150",
+            "displayName": "Walter",
+            "imageUrl": "",
+            "numberOfReviews": 1,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": null,
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "es",
+        "location": null
+    },
+    {
+        "id": "663e602ad61b5240e511de11",
+        "filtered": false,
+        "pending": false,
+        "text": "Muy buena app sin duda ",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2024-05-10T19:58:03.000Z",
+                "reviewSourceName": "InvitationApi",
+                "verificationSource": "invitation",
+                "verificationLevel": "verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "Muy buena app sin duda",
+        "likes": 0,
+        "source": "InvitationApi",
+        "dates": {
+            "experiencedDate": "2024-05-10T00:00:00.000Z",
+            "publishedDate": "2024-05-10T19:58:03.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "663e602ab8acc164a0bfb663",
+            "displayName": "Johnny",
+            "imageUrl": "",
+            "numberOfReviews": 1,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": null,
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": 1,
+        "productReviews": [],
+        "language": "es",
+        "location": {
+            "id": "53b0d6a4-41a0-42e1-9f71-c89f9f1b007c",
+            "name": "Meetup Dallas",
+            "urlFormattedName": "meetup-dallas"
+        }
+    },
+    {
+        "id": "663e5250e806ad2785e51d49",
+        "filtered": false,
+        "pending": false,
+        "text": "La verdad me siento agradecido por tomarnos en cuenta, gracias a su iniciativa he podido solventar apuros que en verdad significaban un gran muro en mi vida... agradecido por su apoyo.\n",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2024-05-10T18:58:57.000Z",
+                "reviewSourceName": "InvitationApi",
+                "verificationSource": "invitation",
+                "verificationLevel": "verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "La verdad me siento agradecido por…",
+        "likes": 0,
+        "source": "InvitationApi",
+        "dates": {
+            "experiencedDate": "2024-05-10T00:00:00.000Z",
+            "publishedDate": "2024-05-10T18:58:57.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "663e524fcb6e8dc5c4ac0dd9",
+            "displayName": "Luis",
+            "imageUrl": "",
+            "numberOfReviews": 1,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": null,
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "es",
+        "location": null
+    },
+    {
+        "id": "663e45291b57e295072fdb69",
+        "filtered": false,
+        "pending": false,
+        "text": "Everything was great, can’t complain ",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2024-05-10T18:02:50.000Z",
+                "reviewSourceName": "InvitationApi",
+                "verificationSource": "invitation",
+                "verificationLevel": "verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "Can’t complain",
+        "likes": 0,
+        "source": "InvitationApi",
+        "dates": {
+            "experiencedDate": "2024-05-10T00:00:00.000Z",
+            "publishedDate": "2024-05-10T18:02:50.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "663e4528b55dd3fe63af50ac",
+            "displayName": "Elias",
+            "imageUrl": "",
+            "numberOfReviews": 1,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": null,
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "663e3131ace7cbdae829abd7",
+        "filtered": false,
+        "pending": false,
+        "text": "Responde rápido cuando uno necesita de la ayuda de ellos por algún error que aiga tenido uno en las transferencias me gusta mucho la banca móvil ",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2024-05-10T16:37:37.000Z",
+                "reviewSourceName": "InvitationApi",
+                "verificationSource": "invitation",
+                "verificationLevel": "verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "Responde rápido cuando uno necesita de…",
+        "likes": 0,
+        "source": "InvitationApi",
+        "dates": {
+            "experiencedDate": "2024-05-10T00:00:00.000Z",
+            "publishedDate": "2024-05-10T16:37:37.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "663e3130d5fa243b13110b08",
+            "displayName": "Evels",
+            "imageUrl": "",
+            "numberOfReviews": 1,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": null,
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "es",
+        "location": null
+    },
+    {
+        "id": "663e2e7fd3fd0a9f7b85d967",
+        "filtered": false,
+        "pending": false,
+        "text": "El envío fué un éxito gracias ",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2024-05-10T16:26:07.000Z",
+                "reviewSourceName": "InvitationApi",
+                "verificationSource": "invitation",
+                "verificationLevel": "verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "El envío fué un exito gracias exelente ",
+        "likes": 0,
+        "source": "InvitationApi",
+        "dates": {
+            "experiencedDate": "2024-05-07T00:00:00.000Z",
+            "publishedDate": "2024-05-10T16:26:07.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "663e2e7ed5fa244e16110858",
+            "displayName": "Alexander",
+            "imageUrl": "",
+            "numberOfReviews": 1,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": null,
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "es",
+        "location": null
+    },
+    {
+        "id": "663e27430097593db4315371",
+        "filtered": false,
+        "pending": false,
+        "text": "I live in Cuba and I cannot enjoy your offers 😔, greetings, blessings",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2024-05-10T15:55:16.000Z",
+                "reviewSourceName": "InvitationApi",
+                "verificationSource": "invitation",
+                "verificationLevel": "verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "I live in Cuba and I cannot enjoy your…",
+        "likes": 0,
+        "source": "InvitationApi",
+        "dates": {
+            "experiencedDate": "2024-05-10T00:00:00.000Z",
+            "publishedDate": "2024-05-10T15:55:16.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "663e2742d5fa24395711013c",
+            "displayName": "Yanisleysi",
+            "imageUrl": "",
+            "numberOfReviews": 1,
+            "countryCode": "CU",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": null,
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "663e206ec4e2748638fad1e2",
+        "filtered": false,
+        "pending": false,
+        "text": "Lo mejor buen servicio",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2024-05-10T15:26:07.000Z",
+                "reviewSourceName": "InvitationApi",
+                "verificationSource": "invitation",
+                "verificationLevel": "verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "Lo mejor buen servicio",
+        "likes": 0,
+        "source": "InvitationApi",
+        "dates": {
+            "experiencedDate": "2024-05-10T00:00:00.000Z",
+            "publishedDate": "2024-05-10T15:26:07.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "65fdd09459b26800127c7a4a",
+            "displayName": "Laritza",
+            "imageUrl": "",
+            "numberOfReviews": 2,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": null,
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "es",
+        "location": null
+    },
+    {
+        "id": "663e1aec07ef9fc6f17fa6b6",
+        "filtered": false,
+        "pending": false,
+        "text": "Buenísima me encanta de verdad muchas gracias ",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2024-05-10T15:02:37.000Z",
+                "reviewSourceName": "InvitationApi",
+                "verificationSource": "invitation",
+                "verificationLevel": "verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "Buenísima me encanta de verdad muchas…",
+        "likes": 0,
+        "source": "InvitationApi",
+        "dates": {
+            "experiencedDate": "2024-05-07T00:00:00.000Z",
+            "publishedDate": "2024-05-10T15:02:37.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "663e1aebd5fa24f16f10f427",
+            "displayName": "Zaiyelith",
+            "imageUrl": "",
+            "numberOfReviews": 1,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": null,
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "es",
+        "location": null
+    },
+    {
+        "id": "663e12a83b084df6ddf86873",
+        "filtered": false,
+        "pending": false,
+        "text": "Mayority es muy eficiente, las recargas llegan a su destino con rapidez y seguridad ",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2024-05-10T14:27:21.000Z",
+                "reviewSourceName": "InvitationApi",
+                "verificationSource": "invitation",
+                "verificationLevel": "verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "Mayority es muy eficiente",
+        "likes": 0,
+        "source": "InvitationApi",
+        "dates": {
+            "experiencedDate": "2024-05-10T00:00:00.000Z",
+            "publishedDate": "2024-05-10T14:27:21.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "663e12a79aac9114a5c473c1",
+            "displayName": "Juan",
+            "imageUrl": "",
+            "numberOfReviews": 1,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": null,
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "es",
+        "location": null
+    }
+]

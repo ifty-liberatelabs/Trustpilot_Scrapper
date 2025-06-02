@@ -4,11 +4,10 @@ import logging
 import os
 import random
 from contextlib import suppress
-from typing import Optional, List, Dict, Any # Added List, Dict, Any
+from typing import Optional, List, Dict, Any
 from urllib.parse import urlparse
 from utils.proxy_pool import PROXY_POOL
 
-# Import from your new helpers module
 from utils.helpers import fetch_page_fresh_ip 
 
 import aiofiles
@@ -19,22 +18,20 @@ from tenacity import RetryError
 from utils.scraper_utils import (
     _prepare_url_for_page,
     get_company_profile_data_async,
-    # get_reviews_from_page_async, # This is now primarily called via fetch_page_fresh_ip for workers
+
 )
 from utils.total_review_pages import (
     determine_total_review_pages_async,
 )
 
 logger = logging.getLogger(__name__)
-# BasicConfig should ideally be in main.py only.
-# If logger is used before main.py configures it, this can be a fallback.
+
 if not logger.handlers: 
     logging.basicConfig(
         level=logging.INFO,
         format="%(asctime)s | %(name)s | %(levelname)s | %(message)s",
     )
 
-# Moved USER_AGENTS to be accessible for passing to fetch_page_fresh_ip
 USER_AGENTS = [
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
     "(KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
@@ -62,13 +59,9 @@ USER_AGENTS = [
 IP_ECHO_URL = "https://api.ipify.org?format=text"
 
 
-# ────────────────────────────────────────────────────────────────────────────
-#  Worker coroutine
-# ────────────────────────────────────────────────────────────────────────────
 async def trustpilot_page_scraping_worker(
     worker_id: int,
     page_queue: asyncio.Queue,
-    # client: httpx.AsyncClient, # Client is no longer passed directly to worker; fetch_page_fresh_ip creates its own
     base_url_str: str,
     folder_name: str,
     total_pages_overall: int,
@@ -86,8 +79,7 @@ async def trustpilot_page_scraping_worker(
         try:
             if page_num is None:
                 logger.info("TP Worker %s: stop signal received", worker_id)
-                return # Use return to exit the coroutine
-
+                return
             if not global_delay_event.is_set():
                 logger.debug("TP Worker %s: waiting for global delay", worker_id)
                 await global_delay_event.wait()
@@ -102,7 +94,6 @@ async def trustpilot_page_scraping_worker(
             initial_ua = random.choice(USER_AGENTS)
             logger.info("TP Worker %s: page %s (Initial UA=%s)", worker_id, page_num, initial_ua)
 
-            # CORRECTED CALL: Pass USER_AGENTS list
             reviews_on_page, proxy_used = await fetch_page_fresh_ip(
                 url_to_scrape,
                 initial_ua,
@@ -119,9 +110,6 @@ async def trustpilot_page_scraping_worker(
                 logger.warning(
                     "TP Worker %s: no reviews on page %s after attempts", worker_id, page_num
                 )
-                # Only add to failed_pages_list if it's not due to a handled RetryError from fetch_page_fresh_ip
-                # (fetch_page_fresh_ip raises error if all retries fail, caught below)
-                # This path is taken if fetch_page_fresh_ip returns ([], proxy_used)
                 if page_num > 1: # Avoid flagging page 1 if it genuinely has no reviews but profile exists
                     failed_pages_list.append(
                         {
@@ -180,10 +168,6 @@ async def trustpilot_page_scraping_worker(
         finally:
             page_queue.task_done()
 
-
-# ────────────────────────────────────────────────────────────────────────────
-#  Main entry-point
-# ────────────────────────────────────────────────────────────────────────────
 async def run_scrape_trustpilot_reviews(
     base_url: str,
     num_pages_to_scrape_override: Optional[int] = None,

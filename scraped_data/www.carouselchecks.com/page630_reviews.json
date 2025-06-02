@@ -1,0 +1,890 @@
+[
+    {
+        "id": "5d22165e42fa560af432ce5b",
+        "filtered": false,
+        "pending": false,
+        "text": "Look fine, ship time was what I expected",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2019-07-07T15:57:18.000Z",
+                "reviewSourceName": "AFSv1",
+                "verificationSource": "invitation",
+                "verificationLevel": null,
+                "hasDachExclusion": false
+            }
+        },
+        "title": "Look fine",
+        "likes": 0,
+        "source": "AFSv1",
+        "dates": {
+            "experiencedDate": null,
+            "publishedDate": "2019-07-07T15:57:18.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "5d22165dba70b8560b5eaed1",
+            "displayName": "Rick Newton",
+            "imageUrl": "",
+            "numberOfReviews": 2,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": null,
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "5d21704942fa560af4329e3e",
+        "filtered": false,
+        "pending": false,
+        "text": "I like that they called to verify my info and identity.  It made me feel safe using them.  The checks are nice quality and were delivered timely.",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2019-07-07T04:08:41.000Z",
+                "reviewSourceName": "AFSv1",
+                "verificationSource": "invitation",
+                "verificationLevel": null,
+                "hasDachExclusion": false
+            }
+        },
+        "title": "A+++",
+        "likes": 0,
+        "source": "AFSv1",
+        "dates": {
+            "experiencedDate": null,
+            "publishedDate": "2019-07-07T04:08:41.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "57aca24d0000ff000a39f43f",
+            "displayName": "STACEY",
+            "imageUrl": "",
+            "numberOfReviews": 10,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": null,
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "5d21342842fa560424880eb8",
+        "filtered": false,
+        "pending": false,
+        "text": "The checks are very nice, but the postage cost almost as much as the checks!  That is ridiculous.  If that will be the case in the future I will be ordering from another vender.",
+        "rating": 3,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2019-07-06T23:52:08.000Z",
+                "reviewSourceName": "AFSv1",
+                "verificationSource": "invitation",
+                "verificationLevel": null,
+                "hasDachExclusion": false
+            }
+        },
+        "title": "Nice checks.  Postage outrageous.",
+        "likes": 0,
+        "source": "AFSv1",
+        "dates": {
+            "experiencedDate": null,
+            "publishedDate": "2019-07-06T23:52:08.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "5d213428ba70b8657c5e6c21",
+            "displayName": "Linda Cameron",
+            "imageUrl": "",
+            "numberOfReviews": 2,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": {
+            "message": "Hello Linda, \n\nThank you for your order!\n\nWe've noticed that a customer service representative has attempted to contact you and  we would appreciate the opportunity to speak with you.\nPlease contact our customer service department at 708-613-2452  and please select option 2.\n\nWe appreciate your feedback and look forward to speaking with you.\n\nKindest Regards,\n\nCarousel Checks\n",
+            "publishedDate": "2019-07-11T15:45:29.383Z",
+            "updatedDate": null
+        },
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "5d21182e42fa560af43294cc",
+        "filtered": false,
+        "pending": false,
+        "text": "Completed in a timely manner & done correctly.",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2019-07-06T21:52:46.000Z",
+                "reviewSourceName": "AFSv1",
+                "verificationSource": "invitation",
+                "verificationLevel": null,
+                "hasDachExclusion": false
+            }
+        },
+        "title": "Completed in a timely manner & done…",
+        "likes": 0,
+        "source": "AFSv1",
+        "dates": {
+            "experiencedDate": null,
+            "publishedDate": "2019-07-06T21:52:46.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "5a3dd3520000ff000af559d7",
+            "displayName": "Henry",
+            "imageUrl": "",
+            "numberOfReviews": 2,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": null,
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "5d21051f42fa560af4329069",
+        "filtered": false,
+        "pending": false,
+        "text": "The quality and service from Carousel Checks was very good and I would highly recommend them.  My only problem was with DHL who provided terrible shipping service",
+        "rating": 4,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2019-07-06T20:31:27.000Z",
+                "reviewSourceName": "AFSv1",
+                "verificationSource": "invitation",
+                "verificationLevel": null,
+                "hasDachExclusion": false
+            }
+        },
+        "title": "Great quality and service but shipped DHL.",
+        "likes": 0,
+        "source": "AFSv1",
+        "dates": {
+            "experiencedDate": null,
+            "publishedDate": "2019-07-06T20:31:27.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "5d21051fba70b8515d5e5ee6",
+            "displayName": "JDG",
+            "imageUrl": "",
+            "numberOfReviews": 2,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": null,
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "5d2103ab42fa5604248805b5",
+        "filtered": false,
+        "pending": false,
+        "text": "The paper used is very thin. Would prefer a sturdier paper. Image was great though",
+        "rating": 3,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2019-07-06T20:25:15.000Z",
+                "reviewSourceName": "AFSv1",
+                "verificationSource": "invitation",
+                "verificationLevel": null,
+                "hasDachExclusion": false
+            }
+        },
+        "title": "The paper used is very thin",
+        "likes": 0,
+        "source": "AFSv1",
+        "dates": {
+            "experiencedDate": null,
+            "publishedDate": "2019-07-06T20:25:15.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "5d2103aab6ae9120b92cc757",
+            "displayName": "Carrie",
+            "imageUrl": "",
+            "numberOfReviews": 1,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": null,
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "5d20e8e042fa560af432882b",
+        "filtered": false,
+        "pending": false,
+        "text": "Great service!",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2019-07-06T18:30:56.000Z",
+                "reviewSourceName": "AFSv1",
+                "verificationSource": "invitation",
+                "verificationLevel": null,
+                "hasDachExclusion": false
+            }
+        },
+        "title": "Great service!",
+        "likes": 0,
+        "source": "AFSv1",
+        "dates": {
+            "experiencedDate": null,
+            "publishedDate": "2019-07-06T18:30:56.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "5b81e9714de5666d343ff297",
+            "displayName": "Marvel Thompson",
+            "imageUrl": "",
+            "numberOfReviews": 2,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": null,
+        "consumersReviewCountOnSameDomain": 2,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "5d20cbbb42fa56042487f48a",
+        "filtered": false,
+        "pending": false,
+        "text": "Very easy to order. Order was completed and shipped promptly. No problems.",
+        "rating": 4,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2019-07-06T16:26:35.000Z",
+                "reviewSourceName": "AFSv1",
+                "verificationSource": "invitation",
+                "verificationLevel": null,
+                "hasDachExclusion": false
+            }
+        },
+        "title": "Very easy to order",
+        "likes": 0,
+        "source": "AFSv1",
+        "dates": {
+            "experiencedDate": null,
+            "publishedDate": "2019-07-06T16:26:35.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "5d20cbbab6ae91cd0e2cafec",
+            "displayName": "DOLCE VITA EVENTS",
+            "imageUrl": "",
+            "numberOfReviews": 1,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": null,
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "5d1ff0c342fa560af4323eeb",
+        "filtered": false,
+        "pending": false,
+        "text": "Tried them for the first time and was truly pleased! Quick delivery and great checks at an affordable price. I ordered rather plain ones but quality was better than expected",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2019-07-06T00:52:19.000Z",
+                "reviewSourceName": "AFSv1",
+                "verificationSource": "invitation",
+                "verificationLevel": null,
+                "hasDachExclusion": false
+            }
+        },
+        "title": "Tried them for the first time and was…",
+        "likes": 0,
+        "source": "AFSv1",
+        "dates": {
+            "experiencedDate": null,
+            "publishedDate": "2019-07-06T00:52:19.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "5d1ff0c3c4b22d4b0dec0354",
+            "displayName": "Linda Dawn",
+            "imageUrl": "",
+            "numberOfReviews": 1,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": null,
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "5d1fefe442fa560af4323ed0",
+        "filtered": false,
+        "pending": false,
+        "text": "I probably could have given a 4 star rating.  I was very pleased with the transaction.  My only disappointment was in the check design/color.  I ordered parchment.  What I got said parchment, but it wasn't the parchment I was expecting.  I have ordered parchment from 3 other companies.  The checks were always the same.  These checks are more like a tan--notparchment.  Other than that, everything was fine.",
+        "rating": 3,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2019-07-06T00:48:36.000Z",
+                "reviewSourceName": "AFSv1",
+                "verificationSource": "invitation",
+                "verificationLevel": null,
+                "hasDachExclusion": false
+            }
+        },
+        "title": "I probably could have given a 4 star…",
+        "likes": 0,
+        "source": "AFSv1",
+        "dates": {
+            "experiencedDate": null,
+            "publishedDate": "2019-07-06T00:48:36.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "5d1fefe410e55f58b3feb53b",
+            "displayName": "anon",
+            "imageUrl": "",
+            "numberOfReviews": 1,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": null,
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "5d1fce4142fa560af43239aa",
+        "filtered": false,
+        "pending": false,
+        "text": "The service is great.  I love to use the checking for paying.  The only down side to getting my checks, is they don't come in a box like they used to, besides this I will continue to order from Carousel.",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2019-07-05T22:25:05.000Z",
+                "reviewSourceName": "AFSv1",
+                "verificationSource": "invitation",
+                "verificationLevel": null,
+                "hasDachExclusion": false
+            }
+        },
+        "title": "The service is great",
+        "likes": 0,
+        "source": "AFSv1",
+        "dates": {
+            "experiencedDate": null,
+            "publishedDate": "2019-07-05T22:25:05.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "5510cd5d0000ff0001b38277",
+            "displayName": "Ashland Full Gospel Church",
+            "imageUrl": "",
+            "numberOfReviews": 2,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": null,
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "5d1fc3da42fa560af43236db",
+        "filtered": false,
+        "pending": false,
+        "text": "I got just what I ordered and quicker than they estimated. I'll use them again for sure.",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2019-07-05T21:40:42.000Z",
+                "reviewSourceName": "AFSv1",
+                "verificationSource": "invitation",
+                "verificationLevel": null,
+                "hasDachExclusion": false
+            }
+        },
+        "title": "I got just what I ordered and quicker…",
+        "likes": 0,
+        "source": "AFSv1",
+        "dates": {
+            "experiencedDate": null,
+            "publishedDate": "2019-07-05T21:40:42.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "5d1fc3da70bffd462549fe33",
+            "displayName": "Steven Medina",
+            "imageUrl": "",
+            "numberOfReviews": 2,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": null,
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "5d1fab9742fa56042487a468",
+        "filtered": false,
+        "pending": false,
+        "text": "good experience",
+        "rating": 4,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2019-07-05T19:57:11.000Z",
+                "reviewSourceName": "AFSv1",
+                "verificationSource": "invitation",
+                "verificationLevel": null,
+                "hasDachExclusion": false
+            }
+        },
+        "title": "good experience",
+        "likes": 0,
+        "source": "AFSv1",
+        "dates": {
+            "experiencedDate": null,
+            "publishedDate": "2019-07-05T19:57:11.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "5d1fab9610e55f307dfea22c",
+            "displayName": "Donald R. Toso",
+            "imageUrl": "",
+            "numberOfReviews": 1,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": null,
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "5d1fa70c42fa560af4322c9c",
+        "filtered": false,
+        "pending": false,
+        "text": "ordered checks on phone just took a few minutes. Checks arrived quickly  .",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2019-07-05T19:37:48.000Z",
+                "reviewSourceName": "AFSv1",
+                "verificationSource": "invitation",
+                "verificationLevel": null,
+                "hasDachExclusion": false
+            }
+        },
+        "title": "ordered checks on phone just took a few…",
+        "likes": 0,
+        "source": "AFSv1",
+        "dates": {
+            "experiencedDate": null,
+            "publishedDate": "2019-07-05T19:37:48.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "5d1fa70b70bffd153649f33e",
+            "displayName": "Judy",
+            "imageUrl": "",
+            "numberOfReviews": 1,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": null,
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "5d1f8d8042fa5604248796e3",
+        "filtered": false,
+        "pending": false,
+        "text": "good printing, good paper, good price/\nwhat more can you ask for?",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2019-07-05T17:48:48.000Z",
+                "reviewSourceName": "AFSv1",
+                "verificationSource": "invitation",
+                "verificationLevel": null,
+                "hasDachExclusion": false
+            }
+        },
+        "title": "good printing",
+        "likes": 0,
+        "source": "AFSv1",
+        "dates": {
+            "experiencedDate": null,
+            "publishedDate": "2019-07-05T17:48:48.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "5d1f8d8062f6ec66afc8b8bb",
+            "displayName": "Ulrich Maier",
+            "imageUrl": "",
+            "numberOfReviews": 1,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": null,
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "5d1f862042fa560af4321d14",
+        "filtered": false,
+        "pending": false,
+        "text": "Good quality of paper, fast delivery",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2019-07-05T17:17:20.000Z",
+                "reviewSourceName": "AFSv1",
+                "verificationSource": "invitation",
+                "verificationLevel": null,
+                "hasDachExclusion": false
+            }
+        },
+        "title": "Excellent",
+        "likes": 0,
+        "source": "AFSv1",
+        "dates": {
+            "experiencedDate": null,
+            "publishedDate": "2019-07-05T17:17:20.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "5d1f861f70bffd7a3949e50a",
+            "displayName": "Yenifer P",
+            "imageUrl": "",
+            "numberOfReviews": 1,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": null,
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "5d1f7e6642fa560af432191a",
+        "filtered": false,
+        "pending": false,
+        "text": "The representative that I spoke to was excellent, delivery time was as expected but price was to much. When I lived in the Chicago area I purchased the same number of checks in the same series and the cost in July 2017 was $11.62 ($7.99 was for checks). I have since moved to Florida and my recent purchase was for $31.65 ($18.99 was for checks) for the same number and series of checks.",
+        "rating": 2,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2019-07-05T16:44:22.000Z",
+                "reviewSourceName": "AFSv1",
+                "verificationSource": "invitation",
+                "verificationLevel": null,
+                "hasDachExclusion": false
+            }
+        },
+        "title": "The representative that I spoke to was…Riszamae",
+        "likes": 0,
+        "source": "AFSv1",
+        "dates": {
+            "experiencedDate": null,
+            "publishedDate": "2019-07-05T16:44:22.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "5d1f7e662141ff8eb05da155",
+            "displayName": "Richard",
+            "imageUrl": "",
+            "numberOfReviews": 1,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": {
+            "message": "Hello Richard , \n\nThank you for your order!\n\nWe've noticed that a customer service representative has attempted to contact you and  we would appreciate the opportunity to speak with you.\nPlease contact our customer service department at 708-613-2452  and please select option 2.\n\nWe appreciate your feedback and look forward to speaking with you.\n\nKindest Regards,\n\nCarousel Checks",
+            "publishedDate": "2019-07-05T17:38:12.315Z",
+            "updatedDate": null
+        },
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "5d1f6e8842fa560424878588",
+        "filtered": false,
+        "pending": false,
+        "text": "Great checks.  Great quality.  Fast service.  Prices seem fabulous until you get to the \"sucker\" shipping fees that can almost increase your bargain by 50% for regular service.",
+        "rating": 4,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2019-07-05T15:36:40.000Z",
+                "reviewSourceName": "AFSv1",
+                "verificationSource": "invitation",
+                "verificationLevel": null,
+                "hasDachExclusion": false
+            }
+        },
+        "title": "Great checks - Rip Off Shipping.",
+        "likes": 0,
+        "source": "AFSv1",
+        "dates": {
+            "experiencedDate": null,
+            "publishedDate": "2019-07-05T15:36:40.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "56c3c5b10000ff000a06d8d1",
+            "displayName": "THE UPS STORE",
+            "imageUrl": "",
+            "numberOfReviews": 4,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": null,
+        "consumersReviewCountOnSameDomain": 4,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "5d1f46a242fa560af431f692",
+        "filtered": false,
+        "pending": false,
+        "text": "Good quality and quick delivery.",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2019-07-05T12:46:26.000Z",
+                "reviewSourceName": "AFSv1",
+                "verificationSource": "invitation",
+                "verificationLevel": null,
+                "hasDachExclusion": false
+            }
+        },
+        "title": "Checks",
+        "likes": 0,
+        "source": "AFSv1",
+        "dates": {
+            "experiencedDate": null,
+            "publishedDate": "2019-07-05T12:46:26.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "5d1f46a2d79f01e6c2bf6b16",
+            "displayName": "Eiralda Pena",
+            "imageUrl": "",
+            "numberOfReviews": 1,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": null,
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "5d1f41a442fa560af431f371",
+        "filtered": false,
+        "pending": false,
+        "text": "Great service! I really liked the fact that one of your reps called me to reconfirm addresses on my check order! \nThank you!",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2019-07-05T12:25:08.000Z",
+                "reviewSourceName": "AFSv1",
+                "verificationSource": "invitation",
+                "verificationLevel": null,
+                "hasDachExclusion": false
+            }
+        },
+        "title": "Great service",
+        "likes": 0,
+        "source": "AFSv1",
+        "dates": {
+            "experiencedDate": null,
+            "publishedDate": "2019-07-05T12:25:08.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "5d1f41a3d79f01c337bf683f",
+            "displayName": "Donna Tollefson",
+            "imageUrl": "",
+            "numberOfReviews": 1,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": null,
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    }
+]

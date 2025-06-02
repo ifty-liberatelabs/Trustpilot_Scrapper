@@ -1,0 +1,910 @@
+[
+    {
+        "id": "66ddae4c9f3d0015df227f48",
+        "filtered": false,
+        "pending": false,
+        "text": "Quick and easy",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2024-09-08T16:01:48.000Z",
+                "reviewSourceName": "AFSv2",
+                "verificationSource": "invitation",
+                "verificationLevel": "verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "Quick and easy",
+        "likes": 0,
+        "source": "AFSv2",
+        "dates": {
+            "experiencedDate": "2024-09-08T00:00:00.000Z",
+            "publishedDate": "2024-09-08T16:01:48.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "66ddae4a6cd5e6849fd4a2b4",
+            "displayName": "John Nash",
+            "imageUrl": "",
+            "numberOfReviews": 1,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": null,
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "66dda9ac0efbd63afa3cf5a0",
+        "filtered": false,
+        "pending": false,
+        "text": "Very reasonably priced check printing company.",
+        "rating": 4,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2024-09-08T15:42:04.000Z",
+                "reviewSourceName": "AFSv2",
+                "verificationSource": "invitation",
+                "verificationLevel": "verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "Highly recommended ",
+        "likes": 0,
+        "source": "AFSv2",
+        "dates": {
+            "experiencedDate": "2024-09-08T00:00:00.000Z",
+            "publishedDate": "2024-09-08T15:42:04.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "66dda9abc39526f904062fff",
+            "displayName": "Waseem Raza",
+            "imageUrl": "",
+            "numberOfReviews": 1,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": null,
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "66dd9d0f406f1cea970f8f1c",
+        "filtered": false,
+        "pending": false,
+        "text": "Wrong account number on checks. Hopefully, if you don’t send me new checks, I can write in the correct last number of the account. ",
+        "rating": 2,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2024-09-08T14:48:15.000Z",
+                "reviewSourceName": "AFSv2",
+                "verificationSource": "invitation",
+                "verificationLevel": "verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "Wrong account number on checks",
+        "likes": 0,
+        "source": "AFSv2",
+        "dates": {
+            "experiencedDate": "2024-08-12T00:00:00.000Z",
+            "publishedDate": "2024-09-08T14:48:15.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "5b1c1d084de5666d34b16c82",
+            "displayName": "Customer",
+            "imageUrl": "",
+            "numberOfReviews": 5,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": {
+            "message": "Hello, I am sorry to learn of your experience! If you are in need of any assistance, please feel free to email us at customer_inquiry@bgeltd.com with your order information or full address so we can help.- Jessica",
+            "publishedDate": "2024-09-08T21:51:08.000Z",
+            "updatedDate": null
+        },
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "66dd9cf7f1d8e49698f3d013",
+        "filtered": false,
+        "pending": false,
+        "text": "Very good price with good quality",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2024-09-08T14:47:51.000Z",
+                "reviewSourceName": "AFSv2",
+                "verificationSource": "invitation",
+                "verificationLevel": "verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "Very good price with good quality",
+        "likes": 0,
+        "source": "AFSv2",
+        "dates": {
+            "experiencedDate": "2024-08-12T00:00:00.000Z",
+            "publishedDate": "2024-09-08T14:47:51.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "66d7af1f3baba4cef351d0a3",
+            "displayName": "Jin Lee",
+            "imageUrl": "",
+            "numberOfReviews": 1,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": null,
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "66dd9c8aa41bf35815237f8d",
+        "filtered": false,
+        "pending": false,
+        "text": "I found it very difficult to find the address labels I wanted, and I had to enter order information more than once. Also, my only confirmation of that the order had gone through was this email; I’m still uncertain whether it went through as ordered.",
+        "rating": 1,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2024-09-08T14:46:02.000Z",
+                "reviewSourceName": "AFSv2",
+                "verificationSource": "invitation",
+                "verificationLevel": "verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "Difficult website",
+        "likes": 0,
+        "source": "AFSv2",
+        "dates": {
+            "experiencedDate": "2024-09-08T00:00:00.000Z",
+            "publishedDate": "2024-09-08T14:46:02.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "66dd9c89193b72c73440205b",
+            "displayName": "Kay Augustine",
+            "imageUrl": "",
+            "numberOfReviews": 1,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": {
+            "message": "Hello, I am sorry to learn of the confusion regarding the order process! Please reach out to us via email at customer_inquiry@bgeltd.com with the order information or your full address, with a recap of the issue so we can assist you! - Jessica",
+            "publishedDate": "2024-09-08T21:50:48.000Z",
+            "updatedDate": null
+        },
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "66dd93696bcb8dad8b4c11bc",
+        "filtered": false,
+        "pending": false,
+        "text": "As a buyer, I am extremely satisfied with my experience of purchasing checks. The entire process was seamless and hassle-free. The website was user-friendly, making it easy to browse through different check designs and customize them according to my preferences. The checkout process was quick and secure, ensuring the safety of my personal information.\n\nThe quality of the checks exceeded my expectations. They are printed on high-quality paper and the design is crisp and clear. The checks arrived promptly, well-packaged and in perfect condition.\n\nOverall, I highly recommend this service for anyone in need of buying checks. The experience was top-notch, and I will definitely be a returning customer in the future.\n\n",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2024-09-08T14:07:06.000Z",
+                "reviewSourceName": "AFSv2",
+                "verificationSource": "invitation",
+                "verificationLevel": "verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "As a buyer",
+        "likes": 0,
+        "source": "AFSv2",
+        "dates": {
+            "experiencedDate": "2024-08-12T00:00:00.000Z",
+            "publishedDate": "2024-09-08T14:07:06.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "66dd9367889d951c0963a607",
+            "displayName": "Brandy",
+            "imageUrl": "",
+            "numberOfReviews": 1,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": null,
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "66dd33001bbbeb5d0c0e60e0",
+        "filtered": false,
+        "pending": false,
+        "text": "Site is easy to navigate, options in selection of lettering, monogram and design.",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2024-09-08T07:15:44.000Z",
+                "reviewSourceName": "AFSv2",
+                "verificationSource": "invitation",
+                "verificationLevel": "verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "Site is easy to navigate",
+        "likes": 0,
+        "source": "AFSv2",
+        "dates": {
+            "experiencedDate": "2024-09-08T00:00:00.000Z",
+            "publishedDate": "2024-09-08T07:15:44.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "66dd32fe6cd5e64e97d458fb",
+            "displayName": "Oleg Brovender",
+            "imageUrl": "",
+            "numberOfReviews": 1,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": null,
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "66dd23151cbdee60dec93320",
+        "filtered": false,
+        "pending": false,
+        "text": "Great format very easy to use ",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2024-09-08T06:07:49.000Z",
+                "reviewSourceName": "AFSv2",
+                "verificationSource": "invitation",
+                "verificationLevel": "verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "Simple process ",
+        "likes": 0,
+        "source": "AFSv2",
+        "dates": {
+            "experiencedDate": "2024-09-07T00:00:00.000Z",
+            "publishedDate": "2024-09-08T06:07:49.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "66188d04df518e00127d30c0",
+            "displayName": "Michelle  Ratcliff",
+            "imageUrl": "",
+            "numberOfReviews": 3,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": null,
+        "consumersReviewCountOnSameDomain": 2,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "66dd20ba44f555bbb4cbbe75",
+        "filtered": false,
+        "pending": false,
+        "text": "I did everything online. Even though I'm not adept with a keyboard, the process was easy.thanks",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2024-09-08T05:57:46.000Z",
+                "reviewSourceName": "AFSv2",
+                "verificationSource": "invitation",
+                "verificationLevel": "verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "I did everything online",
+        "likes": 0,
+        "source": "AFSv2",
+        "dates": {
+            "experiencedDate": "2024-08-12T00:00:00.000Z",
+            "publishedDate": "2024-09-08T05:57:46.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "66dd20b8889d955855636b6b",
+            "displayName": "Barry Kessler",
+            "imageUrl": "",
+            "numberOfReviews": 1,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": null,
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "66dd1c90e19c9d8e69ff9fc6",
+        "filtered": false,
+        "pending": false,
+        "text": "Very nice looking products but just ordered my first order, so I do not know what they look like in person as of yet, but it was a friendly website to get the word out that checks are still written. I had my own daughter tell me nobody writes checks anymore I thought I was  gonna fate!",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2024-09-08T05:40:00.000Z",
+                "reviewSourceName": "AFSv2",
+                "verificationSource": "invitation",
+                "verificationLevel": "verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "Very nice looking products but just…",
+        "likes": 0,
+        "source": "AFSv2",
+        "dates": {
+            "experiencedDate": "2024-09-06T00:00:00.000Z",
+            "publishedDate": "2024-09-08T05:40:00.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "61a90455e5849900129589a1",
+            "displayName": "Colleen Cain Landers",
+            "imageUrl": "",
+            "numberOfReviews": 3,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": null,
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "66dd19cd576b16ee35fd4403",
+        "filtered": false,
+        "pending": false,
+        "text": "My check order came quickly and accurately! Very inexpensive!",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2024-09-08T05:28:14.000Z",
+                "reviewSourceName": "AFSv2",
+                "verificationSource": "invitation",
+                "verificationLevel": "verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "My check order came quickly and…",
+        "likes": 0,
+        "source": "AFSv2",
+        "dates": {
+            "experiencedDate": "2024-08-12T00:00:00.000Z",
+            "publishedDate": "2024-09-08T05:28:14.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "66dd19cc889d95600e636a20",
+            "displayName": "Lori  Hines",
+            "imageUrl": "",
+            "numberOfReviews": 2,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": null,
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "66dd0b61d7f4ab2588b61675",
+        "filtered": false,
+        "pending": false,
+        "text": "The website was easy to manage and plenty of options. The ordering process was a breeze and super simple. Great price for the amount of checks you get. ",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2024-09-08T04:26:41.000Z",
+                "reviewSourceName": "AFSv2",
+                "verificationSource": "invitation",
+                "verificationLevel": "verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "Easy to navigate and order",
+        "likes": 0,
+        "source": "AFSv2",
+        "dates": {
+            "experiencedDate": "2024-08-12T00:00:00.000Z",
+            "publishedDate": "2024-09-08T04:26:41.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "66dd0b60889d95823b6366d2",
+            "displayName": "Misty D",
+            "imageUrl": "",
+            "numberOfReviews": 1,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": null,
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "66dd0b14167f94a0887afc26",
+        "filtered": false,
+        "pending": false,
+        "text": "GOOD CHOICES AND PRICES",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2024-09-08T04:25:24.000Z",
+                "reviewSourceName": "AFSv2",
+                "verificationSource": "invitation",
+                "verificationLevel": "verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "GOOD CHOICES AND PRICES",
+        "likes": 0,
+        "source": "AFSv2",
+        "dates": {
+            "experiencedDate": "2024-09-05T00:00:00.000Z",
+            "publishedDate": "2024-09-08T04:25:24.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "6073c86ecb5190001a6c6207",
+            "displayName": "Fred Slobotkin",
+            "imageUrl": "",
+            "numberOfReviews": 2,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": null,
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "66dd03b4036824a2f64cf5f6",
+        "filtered": false,
+        "pending": false,
+        "text": "Outrageous service & handling fees.  What's that fee for?  \"Service and handling charges (S&H) include apportioned order processing, returns processing, credit services, customer service, and other costs related to serving you.\"  And that costs more than the checks did.  Most reputable business include that in the cost of their product.  Hmmm, I'll go to the store to buy a t-shirt.  $5 that's pretty cheap.  Go to the cashier, that'll be $17.50.  Oh, there's an extra fee to pay for the receiving the product, unboxing the product, hanging up the product, even for me to check you out and just in case you want to return it later there's a fee for that too that'll we'll just include now.  Just tell me the real price up front, stop with all the trickery.",
+        "rating": 1,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2024-09-08T03:53:56.000Z",
+                "reviewSourceName": "AFSv2",
+                "verificationSource": "invitation",
+                "verificationLevel": "verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "Outrageous service & handling fees",
+        "likes": 0,
+        "source": "AFSv2",
+        "dates": {
+            "experiencedDate": "2024-09-07T00:00:00.000Z",
+            "publishedDate": "2024-09-08T03:53:56.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "5fb15e72b97938001a1736d4",
+            "displayName": "customer",
+            "imageUrl": "",
+            "numberOfReviews": 3,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": {
+            "message": "Hello, I am sorry to learn of your experience! If you are in need of any assistance, please feel free to email us at customer_inquiry@bgeltd.com with your order information or full address so we can help.- Jessica",
+            "publishedDate": "2024-09-08T21:50:32.000Z",
+            "updatedDate": null
+        },
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "66dd00e81367ab08260ad502",
+        "filtered": false,
+        "pending": false,
+        "text": "Didn’t know if my order went thru, no confirmation, so you sent me double checks",
+        "rating": 1,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2024-09-08T03:42:00.000Z",
+                "reviewSourceName": "AFSv2",
+                "verificationSource": "invitation",
+                "verificationLevel": "verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "Two orders of the same checks, why?",
+        "likes": 0,
+        "source": "AFSv2",
+        "dates": {
+            "experiencedDate": "2024-08-12T00:00:00.000Z",
+            "publishedDate": "2024-09-08T03:42:00.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "66dd00e7889d951a96636425",
+            "displayName": "Guy Broome",
+            "imageUrl": "",
+            "numberOfReviews": 1,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": {
+            "message": "Hello, I am sorry to learn of your experience! If you are in need of any assistance, please feel free to email us at customer_inquiry@bgeltd.com with your order information or full address so we can help.- Jessica",
+            "publishedDate": "2024-09-08T21:50:23.000Z",
+            "updatedDate": null
+        },
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "66dcfcafba69a424f97127b2",
+        "filtered": false,
+        "pending": false,
+        "text": "I have not even received my checks yet!! You have never called me when you had questions about my info. I had to call you to see where my checks are! Then I'm told you were trying to get ahold of me. No you didn't. I never received any calls or email stating you were trying to get a hold of me. I had to call you to ask about my checks. I still haven't received them.!!!",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2024-09-08T03:23:59.000Z",
+                "reviewSourceName": "AFSv2",
+                "verificationSource": "invitation",
+                "verificationLevel": "verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "I have not even received my checks…",
+        "likes": 0,
+        "source": "AFSv2",
+        "dates": {
+            "experiencedDate": "2024-08-12T00:00:00.000Z",
+            "publishedDate": "2024-09-08T03:23:59.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "5e7f98a7a656ee3e9767bd93",
+            "displayName": "East Rift Cottages",
+            "imageUrl": "",
+            "numberOfReviews": 3,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": null,
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "66dce87b94252138c794f83a",
+        "filtered": false,
+        "pending": false,
+        "text": "Never got my checks. Called customer service 4 times, every single rep acted like it was my fault for choosing the least expensive shipping option. If that option isn't trustworth why the heck do they offer it? ",
+        "rating": 1,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2024-09-08T01:57:47.000Z",
+                "reviewSourceName": "AFSv2",
+                "verificationSource": "invitation",
+                "verificationLevel": "verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "Never got my checks",
+        "likes": 0,
+        "source": "AFSv2",
+        "dates": {
+            "experiencedDate": "2024-08-12T00:00:00.000Z",
+            "publishedDate": "2024-09-08T01:57:47.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "5e57cf2c1a955c1fa02cdf66",
+            "displayName": "Kevin Durham",
+            "imageUrl": "",
+            "numberOfReviews": 4,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": {
+            "message": "Hello, I am sorry for any delays you are experiencing with your order! Please email us at customer_inquiry@bgeltd.com with your order information so we can look into this for you. - Jessica",
+            "publishedDate": "2024-09-08T21:50:09.000Z",
+            "updatedDate": null
+        },
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "66dce5f65b4f12f0778dc909",
+        "filtered": false,
+        "pending": false,
+        "text": "The check designs are cute, the price is great & very fast delivery.",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2024-09-08T01:47:02.000Z",
+                "reviewSourceName": "AFSv2",
+                "verificationSource": "invitation",
+                "verificationLevel": "verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "Cute check designs.",
+        "likes": 0,
+        "source": "AFSv2",
+        "dates": {
+            "experiencedDate": "2024-08-12T00:00:00.000Z",
+            "publishedDate": "2024-09-08T01:47:02.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "5f36c032c605466dd66fb3ca",
+            "displayName": "Linda P.",
+            "imageUrl": "",
+            "numberOfReviews": 2,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": null,
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "66dce56c2a667eab7e974694",
+        "filtered": false,
+        "pending": false,
+        "text": "I had to go back to get several pages to work. I almost quit twice for that reason.\nNow l am being asked for a review and you are asking for a picture. NO THANKS! I would like to cancel my order! \nWhy am l feeling harassed? Your score can't get any lower!",
+        "rating": 1,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2024-09-08T01:44:44.000Z",
+                "reviewSourceName": "AFSv2",
+                "verificationSource": "invitation",
+                "verificationLevel": "verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "Hard to follow instructions. Pushy marketing scheme.",
+        "likes": 0,
+        "source": "AFSv2",
+        "dates": {
+            "experiencedDate": "2024-09-05T00:00:00.000Z",
+            "publishedDate": "2024-09-08T01:44:44.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "5e84ec235409e8e6fc70d6f9",
+            "displayName": "Beverly Fristad",
+            "imageUrl": "",
+            "numberOfReviews": 7,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": {
+            "message": "Hello, I am sorry to learn of the confusion regarding the order process! Please reach out to us via email at customer_inquiry@bgeltd.com with the order information or your full address, with a recap of the issue so we can assist you! - Jessica",
+            "publishedDate": "2024-09-08T21:49:54.000Z",
+            "updatedDate": null
+        },
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "66dce026868e86f9468b543f",
+        "filtered": false,
+        "pending": false,
+        "text": "I ordered duplicate checks and processed as single checks",
+        "rating": 1,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2024-09-08T01:22:14.000Z",
+                "reviewSourceName": "AFSv2",
+                "verificationSource": "invitation",
+                "verificationLevel": "verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "I ordered duplicate checks and…",
+        "likes": 0,
+        "source": "AFSv2",
+        "dates": {
+            "experiencedDate": "2024-09-06T00:00:00.000Z",
+            "publishedDate": "2024-09-08T01:22:14.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "66dce025889d951da26358a7",
+            "displayName": "Janet Udelhofen",
+            "imageUrl": "",
+            "numberOfReviews": 1,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": {
+            "message": "Hello, I am sorry to learn of the confusion regarding the order process! Please reach out to us via email at customer_inquiry@bgeltd.com with the order information or your full address, with a recap of the issue so we can assist you! - Jessica",
+            "publishedDate": "2024-09-08T21:49:44.000Z",
+            "updatedDate": null
+        },
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    }
+]

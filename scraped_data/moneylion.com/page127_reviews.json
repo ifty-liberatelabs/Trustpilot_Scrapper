@@ -1,0 +1,962 @@
+[
+    {
+        "id": "61ed99fae1196e51d76cc48d",
+        "filtered": false,
+        "pending": false,
+        "text": "Whenever I need the money it is there for me.",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2022-01-23T18:10:02.000Z",
+                "reviewSourceName": "AFSv2",
+                "verificationSource": "invitation",
+                "verificationLevel": "verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "Whenever I need the money it is there…",
+        "likes": 0,
+        "source": "AFSv2",
+        "dates": {
+            "experiencedDate": null,
+            "publishedDate": "2022-01-23T18:10:02.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "5ba668834de5666d34463533",
+            "displayName": "customer",
+            "imageUrl": "",
+            "numberOfReviews": 6,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": {
+            "message": "100%! We are there when you need us! Thanks for the review!",
+            "publishedDate": "2022-01-30T21:50:43.482Z",
+            "updatedDate": null
+        },
+        "consumersReviewCountOnSameDomain": 3,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "61ed9664a16c1e751f722737",
+        "filtered": false,
+        "pending": false,
+        "text": "Good fast service",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2022-01-23T17:54:44.000Z",
+                "reviewSourceName": "AFSv2",
+                "verificationSource": "invitation",
+                "verificationLevel": "verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "Good fast service",
+        "likes": 0,
+        "source": "AFSv2",
+        "dates": {
+            "experiencedDate": null,
+            "publishedDate": "2022-01-23T17:54:44.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "61ed9662a8ad5b001246d170",
+            "displayName": "gregory",
+            "imageUrl": "",
+            "numberOfReviews": 1,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": {
+            "message": "Awesome! Thanks for the 5-star review, Gregory!",
+            "publishedDate": "2022-01-30T21:50:26.723Z",
+            "updatedDate": null
+        },
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "61ed93c9a16c1e751f7224a0",
+        "filtered": false,
+        "pending": false,
+        "text": "Very easy to open the account. Also no long wait to verify account and fair time for instant loans. Very helpful and fair app.",
+        "rating": 4,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": false,
+                "createdDateTime": "2022-01-23T17:43:37.000Z",
+                "reviewSourceName": "BasicLink",
+                "verificationSource": "invitation",
+                "verificationLevel": "invited",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "Very easy to open the account",
+        "likes": 0,
+        "source": "BasicLink",
+        "dates": {
+            "experiencedDate": null,
+            "publishedDate": "2022-01-23T17:43:37.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "61ed93c1a8ad5b001246cf94",
+            "displayName": "Miguel Repollet",
+            "imageUrl": "",
+            "numberOfReviews": 1,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": {
+            "message": "Thank you for the review, Miguel!",
+            "publishedDate": "2022-01-31T04:55:10.264Z",
+            "updatedDate": null
+        },
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "61ed8cc2a16c1e751f721d89",
+        "filtered": false,
+        "pending": false,
+        "text": "Moneylion has giving tools on how to repair my credit, as well as useful strategies invest my money.",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": false,
+                "createdDateTime": "2022-01-23T17:13:38.000Z",
+                "reviewSourceName": "BasicLink",
+                "verificationSource": "invitation",
+                "verificationLevel": "invited",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "Smart money",
+        "likes": 0,
+        "source": "BasicLink",
+        "dates": {
+            "experiencedDate": null,
+            "publishedDate": "2022-01-23T17:13:38.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "5b8562f54de5666d34c6967b",
+            "displayName": "RODNEY",
+            "imageUrl": "",
+            "numberOfReviews": 4,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": {
+            "message": "Our goal is to help you meet your financial goals! We are thrilled you chose MoneyLion to help you meet your financial goals. Thanks for the awesome review, Rodney!",
+            "publishedDate": "2022-01-30T21:50:02.758Z",
+            "updatedDate": null
+        },
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "61ed86c8e1196e51d76cb1ae",
+        "filtered": false,
+        "pending": false,
+        "text": "Good app helped when I needed money",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2022-01-23T16:48:08.000Z",
+                "reviewSourceName": "AFSv2",
+                "verificationSource": "invitation",
+                "verificationLevel": "verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "Good app helped when I needed money",
+        "likes": 0,
+        "source": "AFSv2",
+        "dates": {
+            "experiencedDate": null,
+            "publishedDate": "2022-01-23T16:48:08.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "61ed86c7a8ad5b001246c55c",
+            "displayName": "jessy",
+            "imageUrl": "",
+            "numberOfReviews": 1,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": {
+            "message": "We are here when you need us! Thanks for the review, Jessy!",
+            "publishedDate": "2022-01-30T21:48:56.501Z",
+            "updatedDate": null
+        },
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "61ed86bbe1196e51d76cb19f",
+        "filtered": false,
+        "pending": false,
+        "text": "MoneyLion had really helped me boost my credit and well as get on track with bills.  I utilize my intacash between checks and now I'm never late on bills.  Awesome company!!!",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": false,
+                "createdDateTime": "2022-01-23T16:47:55.000Z",
+                "reviewSourceName": "BasicLink",
+                "verificationSource": "invitation",
+                "verificationLevel": "invited",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "MoneyLion had really helped me boost my…",
+        "likes": 0,
+        "source": "BasicLink",
+        "dates": {
+            "experiencedDate": null,
+            "publishedDate": "2022-01-23T16:47:55.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "61ed86b332091a00126d8cdf",
+            "displayName": "Angelia Tucker",
+            "imageUrl": "",
+            "numberOfReviews": 2,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": {
+            "message": "We are thrilled to hear you have been able to boost your credit! We love to hear success stories from the Pride. Thank you for the awesome review, Angelia!",
+            "publishedDate": "2022-01-30T21:48:30.986Z",
+            "updatedDate": null
+        },
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "61ed7d09a16c1e751f720eca",
+        "filtered": false,
+        "pending": false,
+        "text": "Money lion has been very valuable to me in my financial difficulties from time to time. They also have a lot of opportunities for people to invest. I love the fact that their app is user friendly. 5 *'s to Money Lion",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2022-01-23T16:06:33.000Z",
+                "reviewSourceName": "AFSv2",
+                "verificationSource": "invitation",
+                "verificationLevel": "verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "Money lion has been very valuable to me…",
+        "likes": 0,
+        "source": "AFSv2",
+        "dates": {
+            "experiencedDate": null,
+            "publishedDate": "2022-01-23T16:06:33.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "5aaa405b4de5666d34e804ec",
+            "displayName": "Terrell Robinson",
+            "imageUrl": "",
+            "numberOfReviews": 4,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": {
+            "message": "Hey, thanks, Terrel! We appreciate the awesome review. We are honored you trust us to help you through those tight times!",
+            "publishedDate": "2022-01-30T21:47:45.456Z",
+            "updatedDate": null
+        },
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "61ed7c17e1196e51d76ca7f9",
+        "filtered": false,
+        "pending": false,
+        "text": "Love this app! Money when you need it, right on time 😊",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2022-01-23T16:02:31.000Z",
+                "reviewSourceName": "AFSv2",
+                "verificationSource": "invitation",
+                "verificationLevel": "verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "Great App!",
+        "likes": 0,
+        "source": "AFSv2",
+        "dates": {
+            "experiencedDate": null,
+            "publishedDate": "2022-01-23T16:02:31.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "5ffb55f1dc71a6001a4c6062",
+            "displayName": "Amber Brown",
+            "imageUrl": "",
+            "numberOfReviews": 2,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": {
+            "message": "You can count on MoneyLion to come through for you! Thank you for the awesome review, Amber!",
+            "publishedDate": "2022-01-30T21:46:50.289Z",
+            "updatedDate": null
+        },
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "61ed6324e1196e51d76c93df",
+        "filtered": false,
+        "pending": false,
+        "text": "The products and services improve every year, a very sustainable way to manage your finances.  I really enjoy using moneylion and have been so for about 4 years, I love it!",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2022-01-23T14:16:04.000Z",
+                "reviewSourceName": "AFSv2",
+                "verificationSource": "invitation",
+                "verificationLevel": "verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "Going 4 Years Strong",
+        "likes": 0,
+        "source": "AFSv2",
+        "dates": {
+            "experiencedDate": null,
+            "publishedDate": "2022-01-23T14:16:04.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "61ed63231666870012969fdd",
+            "displayName": "Tony",
+            "imageUrl": "",
+            "numberOfReviews": 1,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": {
+            "message": "Thank you for being such a loyal member of the Pride, Tony! We are thrilled to have customers like you!",
+            "publishedDate": "2022-01-30T21:45:37.220Z",
+            "updatedDate": null
+        },
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "61ed571ea16c1e751f71f08f",
+        "filtered": false,
+        "pending": false,
+        "text": "I love MoneyLion! Better than the Dave app",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2022-01-23T13:24:46.000Z",
+                "reviewSourceName": "AFSv2",
+                "verificationSource": "invitation",
+                "verificationLevel": "verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "I love MoneyLion",
+        "likes": 0,
+        "source": "AFSv2",
+        "dates": {
+            "experiencedDate": null,
+            "publishedDate": "2022-01-23T13:24:46.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "61ed571d166687001296967a",
+            "displayName": "sarai",
+            "imageUrl": "",
+            "numberOfReviews": 1,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": {
+            "message": "Yeah, we are definitely better than Dave! Thank you for trying us out! We appreciate the awesome review, Sarai!",
+            "publishedDate": "2022-01-30T21:45:06.009Z",
+            "updatedDate": null
+        },
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "61ed50eba16c1e751f71ec00",
+        "filtered": false,
+        "pending": false,
+        "text": "Money Lion has saved my life!! Every month i’m always in a pinch needing $300, MoneyLion has filled my money void! Y’all are the best. When I pay it back, I can request it all over again; I’m so glad I found you all on Google!",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2022-01-23T12:58:19.000Z",
+                "reviewSourceName": "AFSv2",
+                "verificationSource": "invitation",
+                "verificationLevel": "verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "Money Lion has saved my life!",
+        "likes": 0,
+        "source": "AFSv2",
+        "dates": {
+            "experiencedDate": null,
+            "publishedDate": "2022-01-23T12:58:19.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "5ad60c8f4de5666d34dfeac8",
+            "displayName": "Alexandria Branum",
+            "imageUrl": "",
+            "numberOfReviews": 3,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": {
+            "message": "We are so glad you found us too, Alexandria! Thank you for being the best part of MoneyLion!",
+            "publishedDate": "2022-01-30T21:44:30.975Z",
+            "updatedDate": null
+        },
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "61ed13aea16c1e751f71bf83",
+        "filtered": false,
+        "pending": false,
+        "text": "Best of the best really like the features and always comes handy when waiting for that paycheck , credit builder helps build credit too",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2022-01-23T08:37:02.000Z",
+                "reviewSourceName": "AFSv2",
+                "verificationSource": "invitation",
+                "verificationLevel": "verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "Best of the best really like the…",
+        "likes": 0,
+        "source": "AFSv2",
+        "dates": {
+            "experiencedDate": null,
+            "publishedDate": "2022-01-23T08:37:02.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "61ed13ada8ad5b00124672e1",
+            "displayName": "Stizzy",
+            "imageUrl": "",
+            "numberOfReviews": 1,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": {
+            "message": "Thanks, Stizzy! We appreciate the awesome review!",
+            "publishedDate": "2022-01-30T21:44:00.886Z",
+            "updatedDate": null
+        },
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "61ed0df5a16c1e751f71bc3a",
+        "filtered": false,
+        "pending": false,
+        "text": "The best account out there to keep track of all spending and budgeting. Plus it lets you borrow money",
+        "rating": 3,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": false,
+                "createdDateTime": "2022-01-23T08:12:37.000Z",
+                "reviewSourceName": "BasicLink",
+                "verificationSource": "invitation",
+                "verificationLevel": "invited",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "The best account out there to keep…",
+        "likes": 0,
+        "source": "BasicLink",
+        "dates": {
+            "experiencedDate": null,
+            "publishedDate": "2022-01-23T08:12:37.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "61ed0de4a8ad5b0012466feb",
+            "displayName": "fatima deras",
+            "imageUrl": "",
+            "numberOfReviews": 1,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": {
+            "message": "Hi Fatima!\nWe are happy to hear you have been utilizing what MoneyLion has to offer! We hold ourselves to a high standard of service and hope we can earn 5 stars soon! If you have any questions, please feel free to get in touch with us at MoneyLion.com/contactus.",
+            "publishedDate": "2022-01-25T21:58:54.501Z",
+            "updatedDate": null
+        },
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "61ecfcece1196e51d76c4f33",
+        "filtered": false,
+        "pending": false,
+        "text": "I love money lion quick & easy borrowing",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2022-01-23T06:59:56.000Z",
+                "reviewSourceName": "AFSv2",
+                "verificationSource": "invitation",
+                "verificationLevel": "verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "I love money lion",
+        "likes": 0,
+        "source": "AFSv2",
+        "dates": {
+            "experiencedDate": null,
+            "publishedDate": "2022-01-23T06:59:56.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "5aa59f164de5666d34fcc352",
+            "displayName": "customer",
+            "imageUrl": "https://user-images.trustpilot.com/5aa59f164de5666d34fcc352/73x73.png",
+            "numberOfReviews": 8,
+            "countryCode": "US",
+            "hasImage": true,
+            "isVerified": false
+        },
+        "reply": {
+            "message": "Thank you for sending us some love!",
+            "publishedDate": "2022-01-30T21:43:29.131Z",
+            "updatedDate": null
+        },
+        "consumersReviewCountOnSameDomain": 2,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "61ece2d3a16c1e751f71b068",
+        "filtered": false,
+        "pending": false,
+        "text": "This App has so many helpful tips that really work . Life is so much easier when you have finical freeedom. And understand how credit works",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": false,
+                "createdDateTime": "2022-01-23T05:08:35.000Z",
+                "reviewSourceName": "BasicLink",
+                "verificationSource": "invitation",
+                "verificationLevel": "invited",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "This App has so many helpful tips that…",
+        "likes": 0,
+        "source": "BasicLink",
+        "dates": {
+            "experiencedDate": null,
+            "publishedDate": "2022-01-23T05:08:35.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "5beb8e5d5483f4b8a9d662f1",
+            "displayName": "Alicia",
+            "imageUrl": "",
+            "numberOfReviews": 5,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": {
+            "message": "That is what we are here for! We are so proud you chose MoneyLion to be a part of your financial journey, Alicia!",
+            "publishedDate": "2022-01-30T21:43:09.485Z",
+            "updatedDate": null
+        },
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "61eccf7da16c1e751f71adc2",
+        "filtered": false,
+        "pending": false,
+        "text": "Haven't used this app long but so far it is a great app. For those times when you are short on a bill, need a little extra cash for the weekend, etc. this app will help you out and no high APR's to deal with. Will Continue to use this app when needed.",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": false,
+                "createdDateTime": "2022-01-23T03:46:05.000Z",
+                "reviewSourceName": "BasicLink",
+                "verificationSource": "invitation",
+                "verificationLevel": "invited",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "Happy customer…",
+        "likes": 0,
+        "source": "BasicLink",
+        "dates": {
+            "experiencedDate": null,
+            "publishedDate": "2022-01-23T03:46:05.000Z",
+            "updatedDate": "2022-01-23T03:46:58.000Z",
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "5eb49855cdab0418a8b3a099",
+            "displayName": "Kitty Gacha 234",
+            "imageUrl": "",
+            "numberOfReviews": 5,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": {
+            "message": "Welcome to Pride, Kitty! Thank you for the awesome review!",
+            "publishedDate": "2022-01-30T21:42:23.330Z",
+            "updatedDate": null
+        },
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "61eccc51a16c1e751f71ad42",
+        "filtered": false,
+        "pending": false,
+        "text": "I would recommend money lion to everyone. It’s simple and you learn so much about how to manage and save your money. Also they are there for you in a pinch.",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2022-01-23T03:32:33.000Z",
+                "reviewSourceName": "AFSv2",
+                "verificationSource": "invitation",
+                "verificationLevel": "verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "I would recommend money lion to…",
+        "likes": 0,
+        "source": "AFSv2",
+        "dates": {
+            "experiencedDate": null,
+            "publishedDate": "2022-01-23T03:32:33.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "61eccc500f366400127b5b9c",
+            "displayName": "monica",
+            "imageUrl": "",
+            "numberOfReviews": 1,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": {
+            "message": "Thank you for the awesome review, Monica! We really appreciate the recommendation!",
+            "publishedDate": "2022-01-30T21:41:37.424Z",
+            "updatedDate": null
+        },
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "61eccb91e1196e51d76c46cb",
+        "filtered": false,
+        "pending": false,
+        "text": "Really helps out with small emergencies when you’re paycheck to paycheck!",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2022-01-23T03:29:21.000Z",
+                "reviewSourceName": "AFSv2",
+                "verificationSource": "invitation",
+                "verificationLevel": "verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "Really helps out with small emergencies…",
+        "likes": 0,
+        "source": "AFSv2",
+        "dates": {
+            "experiencedDate": null,
+            "publishedDate": "2022-01-23T03:29:21.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "61eccb900f366400127b5b6d",
+            "displayName": "Mo",
+            "imageUrl": "",
+            "numberOfReviews": 1,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": {
+            "message": "Instacash is great for the those unexpected expenses! Thanks so much for the review, Mo!",
+            "publishedDate": "2022-01-30T21:41:17.072Z",
+            "updatedDate": null
+        },
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "61ecbd6ea16c1e751f71ab09",
+        "filtered": false,
+        "pending": false,
+        "text": "They sent me 2 loans iv never got I first signed up I got 25 right away I went to get 70 the showed they sent it but iv never got it so then I borrowed 55 it didn't go to my account but there saying I owe them I don't have this problem with Dave and earin",
+        "rating": 1,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": false,
+                "createdDateTime": "2022-01-23T02:29:02.000Z",
+                "reviewSourceName": "BasicLink",
+                "verificationSource": "invitation",
+                "verificationLevel": "invited",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "They sent me 2 loans iv never got I…",
+        "likes": 0,
+        "source": "BasicLink",
+        "dates": {
+            "experiencedDate": null,
+            "publishedDate": "2022-01-23T02:29:02.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "61ecbd600f366400127b590a",
+            "displayName": "Leslie Hollman",
+            "imageUrl": "",
+            "numberOfReviews": 1,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": {
+            "message": "Hey Leslie. We are sorry to hear of this experience and we’d like the opportunity to resolve your concern. Please send an email to CustomerAdvocacy@moneylion.com and include reference number MLVVJ8VY in the subject line. We hope to hear from you soon! ",
+            "publishedDate": "2022-01-24T22:00:09.247Z",
+            "updatedDate": null
+        },
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "61ecbad4a16c1e751f71aa9e",
+        "filtered": false,
+        "pending": false,
+        "text": "Fast money delivery and safe. Customer support on chat could be a little more knowledgeable, but only used it once so it could have just been that person. Highly recommend MoneyLion if you need a safe secure place to loan from. Just make sure to opt out of them selling your info or you will get like 20 spam text a day.",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2022-01-23T02:17:56.000Z",
+                "reviewSourceName": "AFSv2",
+                "verificationSource": "invitation",
+                "verificationLevel": "verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "Fast money delivery and safe",
+        "likes": 0,
+        "source": "AFSv2",
+        "dates": {
+            "experiencedDate": null,
+            "publishedDate": "2022-01-23T02:17:56.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "5e44749512b06c7d3cf17833",
+            "displayName": "Kyle Higley",
+            "imageUrl": "",
+            "numberOfReviews": 3,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": {
+            "message": "Thanks for the feedback, Kyle! You shouldn't be spammed from any of our partners, so don't hesitate to reach out if you need our assistance! ",
+            "publishedDate": "2022-01-30T21:40:51.543Z",
+            "updatedDate": null
+        },
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    }
+]

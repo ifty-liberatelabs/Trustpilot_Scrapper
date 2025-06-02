@@ -100,23 +100,13 @@ async def _fetch_and_extract_total_pages_from_next_data_async(
 async def determine_total_review_pages_async(
     base_review_url: str,
     client: httpx.AsyncClient,
-    # Re-using USER_AGENTS from scraper_service. If this file becomes more independent, define/import USER_AGENTS here.
-    # For now, we expect the client passed in already has a reasonable default UA.
-    # Or, we can explicitly pick one if USER_AGENTS is available.
-    # from services.scraper_service import USER_AGENTS # Not ideal for utils to import from services
 ) -> Optional[int]:
 
     logger.info(f"Async: Determining total review pages for: {base_review_url}")
-    
-    # Use a random UA for these attempts if USER_AGENTS is accessible, otherwise client's default
-    # For simplicity, assuming client has a decent default UA set in scraper_service.py
-    # If more robustness is needed, USER_AGENTS should be passed or imported here too.
-    # current_ua_for_total_pages = random.choice(USER_AGENTS) if 'USER_AGENTS' in globals() else client.headers.get("User-Agent")
 
     url_page_2 = _prepare_url_for_page(base_review_url, 2, languages="all")
     logger.info(f"Async: Attempt 1 (total pages): Checking on: {url_page_2}")
     try:
-        # Pass UA if you have a list here, otherwise client's default UA will be used
         total_pages = await _fetch_and_extract_total_pages_from_next_data_async(url_page_2, client) #, user_agent_string=current_ua_for_total_pages)
         if total_pages is not None:
             logger.info(f"Async: Total pages ({total_pages}) determined from page 2 logic ({url_page_2}).")

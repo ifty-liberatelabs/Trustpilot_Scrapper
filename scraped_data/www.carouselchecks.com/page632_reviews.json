@@ -1,0 +1,886 @@
+[
+    {
+        "id": "5d1a093642fa560af42f999d",
+        "filtered": false,
+        "pending": false,
+        "text": "My order arrived as expected.  No issues.",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2019-07-01T13:23:02.000Z",
+                "reviewSourceName": "AFSv1",
+                "verificationSource": "invitation",
+                "verificationLevel": null,
+                "hasDachExclusion": false
+            }
+        },
+        "title": "My order arrived as expected",
+        "likes": 0,
+        "source": "AFSv1",
+        "dates": {
+            "experiencedDate": null,
+            "publishedDate": "2019-07-01T13:23:02.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "5d1a093597935f6d31d78d13",
+            "displayName": "Teresa Cox",
+            "imageUrl": "",
+            "numberOfReviews": 1,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": null,
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "5d1957e742fa56042484ce3a",
+        "filtered": false,
+        "pending": false,
+        "text": "Good product, good price. I'll be back.",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2019-07-01T00:46:31.000Z",
+                "reviewSourceName": "AFSv1",
+                "verificationSource": "invitation",
+                "verificationLevel": null,
+                "hasDachExclusion": false
+            }
+        },
+        "title": "Good product",
+        "likes": 0,
+        "source": "AFSv1",
+        "dates": {
+            "experiencedDate": null,
+            "publishedDate": "2019-07-01T00:46:31.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "5d1957e79a289303bf27584f",
+            "displayName": "Kenneth Croak",
+            "imageUrl": "",
+            "numberOfReviews": 1,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": null,
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "5d19381642fa56042484c9e3",
+        "filtered": false,
+        "pending": false,
+        "text": "Everything went great. Shipping was fast. Thanks",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2019-06-30T22:30:46.000Z",
+                "reviewSourceName": "AFSv1",
+                "verificationSource": "invitation",
+                "verificationLevel": null,
+                "hasDachExclusion": false
+            }
+        },
+        "title": "Everything went great",
+        "likes": 0,
+        "source": "AFSv1",
+        "dates": {
+            "experiencedDate": null,
+            "publishedDate": "2019-06-30T22:30:46.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "5d193815be59e83a7ddf7ea4",
+            "displayName": "Steven Harvie",
+            "imageUrl": "",
+            "numberOfReviews": 1,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": null,
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "5d19222142fa56042484c46e",
+        "filtered": false,
+        "pending": false,
+        "text": "It was the first time, that I ordered checks with Carousel Checks and I was very satisfied with the service .\nI will order my checks with this company in the future.",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2019-06-30T20:57:05.000Z",
+                "reviewSourceName": "AFSv1",
+                "verificationSource": "invitation",
+                "verificationLevel": null,
+                "hasDachExclusion": false
+            }
+        },
+        "title": "Prompt delivery on check order",
+        "likes": 0,
+        "source": "AFSv1",
+        "dates": {
+            "experiencedDate": null,
+            "publishedDate": "2019-06-30T20:57:05.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "5a3e76260000ff000af5831e",
+            "displayName": "Edith Moore",
+            "imageUrl": "",
+            "numberOfReviews": 2,
+            "countryCode": "DE",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": null,
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "5d18fb5742fa56042484b733",
+        "filtered": false,
+        "pending": false,
+        "text": "I phoned in my reorder and the representative ( apologies for not remembering his name! )\nWas so personable and helpful. Appreciative of the continued service!",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2019-06-30T18:11:35.000Z",
+                "reviewSourceName": "AFSv1",
+                "verificationSource": "invitation",
+                "verificationLevel": null,
+                "hasDachExclusion": false
+            }
+        },
+        "title": "I phoned in my order",
+        "likes": 0,
+        "source": "AFSv1",
+        "dates": {
+            "experiencedDate": null,
+            "publishedDate": "2019-06-30T18:11:35.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "5d18fb56be59e878c8df6682",
+            "displayName": "Judith ",
+            "imageUrl": "",
+            "numberOfReviews": 1,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": null,
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "5d18f37042fa56042484b46e",
+        "filtered": false,
+        "pending": false,
+        "text": "The best customer service ever. The checks are nice and a great price. I had misspelled a word on my online order and they replaced the checks for shipping cost only!",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2019-06-30T17:37:52.000Z",
+                "reviewSourceName": "AFSv1",
+                "verificationSource": "invitation",
+                "verificationLevel": null,
+                "hasDachExclusion": false
+            }
+        },
+        "title": "The best customer service ever",
+        "likes": 0,
+        "source": "AFSv1",
+        "dates": {
+            "experiencedDate": null,
+            "publishedDate": "2019-06-30T17:37:52.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "5d18f36f9a289343052735e8",
+            "displayName": "Judy C. Olson",
+            "imageUrl": "",
+            "numberOfReviews": 4,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": null,
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "5d18bca842fa56042484a0da",
+        "filtered": false,
+        "pending": false,
+        "text": "My order took a couple weeks to get with free delivery but it was all correct I found that I put in a wrong number when I typed the order. I didn’t like when my order was final it didn’t let you proof it. I called in and they reprinted them correctly and I had to pay the shipping. I had the reprints in a week.",
+        "rating": 4,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2019-06-30T13:44:08.000Z",
+                "reviewSourceName": "AFSv1",
+                "verificationSource": "invitation",
+                "verificationLevel": null,
+                "hasDachExclusion": false
+            }
+        },
+        "title": "My order took a couple weeks to get…",
+        "likes": 0,
+        "source": "AFSv1",
+        "dates": {
+            "experiencedDate": null,
+            "publishedDate": "2019-06-30T13:44:08.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "5d18bca797935f284dd6f940",
+            "displayName": "1st timer",
+            "imageUrl": "",
+            "numberOfReviews": 1,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": null,
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "5d18176842fa560424847bb7",
+        "filtered": false,
+        "pending": false,
+        "text": "On time, accurate.  Half the price of what I would pay at my credit union.  Wish I'd switched sooner.",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2019-06-30T01:59:04.000Z",
+                "reviewSourceName": "AFSv1",
+                "verificationSource": "invitation",
+                "verificationLevel": null,
+                "hasDachExclusion": false
+            }
+        },
+        "title": "All good",
+        "likes": 0,
+        "source": "AFSv1",
+        "dates": {
+            "experiencedDate": null,
+            "publishedDate": "2019-06-30T01:59:04.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "5d1817673fc1c86fc837433a",
+            "displayName": "Steve ",
+            "imageUrl": "",
+            "numberOfReviews": 1,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": null,
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "5d177d8442fa560af42edc05",
+        "filtered": false,
+        "pending": false,
+        "text": "I ordered continuation of my checks.  Order accepted, then another order appeared to have been accepted as well.  I called and my original order was reinstated, and I was given faster service to compensate me for my time and trouble.  I wish there hadn't been a need for the compensation in the first place.",
+        "rating": 3,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2019-06-29T15:02:28.000Z",
+                "reviewSourceName": "AFSv1",
+                "verificationSource": "invitation",
+                "verificationLevel": null,
+                "hasDachExclusion": false
+            }
+        },
+        "title": "I ordered continuation of my checks",
+        "likes": 0,
+        "source": "AFSv1",
+        "dates": {
+            "experiencedDate": null,
+            "publishedDate": "2019-06-29T15:02:28.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "56c8c2cb0000ff000a07fc6e",
+            "displayName": "Susan Heimlich",
+            "imageUrl": "",
+            "numberOfReviews": 4,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": null,
+        "consumersReviewCountOnSameDomain": 2,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "5d1777ab42fa560af42eda15",
+        "filtered": false,
+        "pending": false,
+        "text": "Ordering is simple online. Checks arrive in a timely manner.",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2019-06-29T14:37:31.000Z",
+                "reviewSourceName": "AFSv1",
+                "verificationSource": "invitation",
+                "verificationLevel": null,
+                "hasDachExclusion": false
+            }
+        },
+        "title": "Ordering is simple online",
+        "likes": 0,
+        "source": "AFSv1",
+        "dates": {
+            "experiencedDate": null,
+            "publishedDate": "2019-06-29T14:37:31.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "5764b5810000ff000a2a49aa",
+            "displayName": "Amy",
+            "imageUrl": "",
+            "numberOfReviews": 2,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": null,
+        "consumersReviewCountOnSameDomain": 2,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "5d1765ae42fa560af42ed3a3",
+        "filtered": false,
+        "pending": false,
+        "text": "Carousel Checks was the first \"custom photo\" check vendor I found, and their user interface was \"pretty good\".  My check background is actually a graphic design rather than a photograph and made of two components, so I had to compose the two elements into a single graphic before submitting.\n\nI'm pretty happy with the resulting checks, but the graphic is a little more faded (intentionally, by Carousel) than I would have liked.\n\nTwo features would made this more of a 5-star experience: 1) the ability to review the faded \"final\" version before committing to the checks, and 2) a way to put in a \"background\" and \"foreground\" image without my needing to compose them myself.\n\nAlso would have been nice to be able to review the design when I checked order status - once you make your order, you've seen your design for the last time.\n\nBut don't get me wrong, I'm using my unique checks and the price was right.  If you have a regular old photo you'll probably be very pleased.",
+        "rating": 4,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2019-06-29T13:20:46.000Z",
+                "reviewSourceName": "AFSv1",
+                "verificationSource": "invitation",
+                "verificationLevel": null,
+                "hasDachExclusion": false
+            }
+        },
+        "title": "Pretty good custom background checks and user interface",
+        "likes": 0,
+        "source": "AFSv1",
+        "dates": {
+            "experiencedDate": null,
+            "publishedDate": "2019-06-29T13:20:46.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "5d1765ad3fc1c8104237120b",
+            "displayName": "Cornan The Iowan",
+            "imageUrl": "",
+            "numberOfReviews": 3,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": null,
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "5d16ee6642fa5604248427e2",
+        "filtered": false,
+        "pending": false,
+        "text": "Purchase choices were not clear enough on the website. First order was not satisfactory due to this and a second order had to be made . Not reduction was given on second order.",
+        "rating": 3,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2019-06-29T04:51:50.000Z",
+                "reviewSourceName": "AFSv1",
+                "verificationSource": "invitation",
+                "verificationLevel": null,
+                "hasDachExclusion": false
+            }
+        },
+        "title": "Purchase choices were not clear enough…",
+        "likes": 0,
+        "source": "AFSv1",
+        "dates": {
+            "experiencedDate": null,
+            "publishedDate": "2019-06-29T04:51:50.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "5d16ee65a9030c3fb72a8b9b",
+            "displayName": "THE CITADEL INC",
+            "imageUrl": "",
+            "numberOfReviews": 1,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": {
+            "message": "Hello Valued Customer, \n\nThank you for your order! \n\n It was a pleasure speaking with you regarding your concerns and we are pleased that we were able to resolve the situation. If you have any additional questions please feel free to contact our customer service department at 708-613-2452 and select option 2. \n\nWe appreciate your business and value your feedback.\n\n Kindest Regards, \n\nCarousel Checks\n",
+            "publishedDate": "2019-07-03T16:24:34.549Z",
+            "updatedDate": null
+        },
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "5d16ae1642fa5604248420e1",
+        "filtered": false,
+        "pending": false,
+        "text": "This is the third time in a row I have ordered checks from Carousel, and it has been easy since the re-orders have been for the exact same checks--no changes in style, number of checks or mailing address/instructions.  All I have to do is give the former order number and it's all set.  \n\nThe only complaint I have is that the hours when I usually try to do online things are not the same hours that your ordering number is available.",
+        "rating": 4,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2019-06-29T00:17:26.000Z",
+                "reviewSourceName": "AFSv1",
+                "verificationSource": "invitation",
+                "verificationLevel": null,
+                "hasDachExclusion": false
+            }
+        },
+        "title": "I'm satisfied",
+        "likes": 0,
+        "source": "AFSv1",
+        "dates": {
+            "experiencedDate": null,
+            "publishedDate": "2019-06-29T00:17:26.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "5d16ae169a2893ca0626915f",
+            "displayName": "Joseph Serbin",
+            "imageUrl": "",
+            "numberOfReviews": 1,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": null,
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "5d16789042fa5606ecb0e599",
+        "filtered": false,
+        "pending": false,
+        "text": "I became quite confused when 2 things showed up in my Cart, but I only wanted 1 item.  My Customer Service person, whose name is IRENE, was wonderful!  This young lady had the patience of Job.  She definitely knew exactly how to delete the unwanted item.  She was very knowledgeable.  Again, her patience with me was AMAZING!\n\nYou have an amazing Customer Service Rep!!!",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": false,
+                "createdDateTime": "2019-06-28T20:29:04.000Z",
+                "reviewSourceName": "Organic",
+                "verificationSource": "invitation",
+                "verificationLevel": null,
+                "hasDachExclusion": false
+            }
+        },
+        "title": "I became quite confused when 2 things…",
+        "likes": 0,
+        "source": "Organic",
+        "dates": {
+            "experiencedDate": null,
+            "publishedDate": "2019-06-28T20:29:04.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "5d16788c97935fc77dd65e68",
+            "displayName": "Mary Skidmore",
+            "imageUrl": "",
+            "numberOfReviews": 2,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": null,
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "5d15fa4d42fa56042483d09e",
+        "filtered": false,
+        "pending": false,
+        "text": "after finding out my bank was going to charge me $46 for checks  I checked out Carousel Checks. What  a difference in price.  I will be using them for now on.",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2019-06-28T11:30:21.000Z",
+                "reviewSourceName": "AFSv1",
+                "verificationSource": "invitation",
+                "verificationLevel": null,
+                "hasDachExclusion": false
+            }
+        },
+        "title": "after finding out my bank was going to…",
+        "likes": 0,
+        "source": "AFSv1",
+        "dates": {
+            "experiencedDate": null,
+            "publishedDate": "2019-06-28T11:30:21.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "5d15fa4cbe59e85aa2de66dc",
+            "displayName": "Rea Mills",
+            "imageUrl": "",
+            "numberOfReviews": 4,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": null,
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "5d15ed4a42fa560af42e4f14",
+        "filtered": false,
+        "pending": false,
+        "text": "Easy to use. affordable.",
+        "rating": 4,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2019-06-28T10:34:50.000Z",
+                "reviewSourceName": "AFSv1",
+                "verificationSource": "invitation",
+                "verificationLevel": null,
+                "hasDachExclusion": false
+            }
+        },
+        "title": "Easy to use.",
+        "likes": 0,
+        "source": "AFSv1",
+        "dates": {
+            "experiencedDate": null,
+            "publishedDate": "2019-06-28T10:34:50.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "5d15ed4a3fc1c81d58368219",
+            "displayName": "David Hix",
+            "imageUrl": "",
+            "numberOfReviews": 1,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": null,
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "5d15707a42fa56034caa7217",
+        "filtered": false,
+        "pending": false,
+        "text": "Clear process done by phone. Delivery was quick. Great service!",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2019-06-28T01:42:18.000Z",
+                "reviewSourceName": "AFSv1",
+                "verificationSource": "invitation",
+                "verificationLevel": null,
+                "hasDachExclusion": false
+            }
+        },
+        "title": "Clear process done by phone",
+        "likes": 0,
+        "source": "AFSv1",
+        "dates": {
+            "experiencedDate": null,
+            "publishedDate": "2019-06-28T01:42:18.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "5d157079be59e8f7a6de33d5",
+            "displayName": "Clydine James",
+            "imageUrl": "",
+            "numberOfReviews": 1,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": null,
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "5d156a8f42fa5606946c263a",
+        "filtered": false,
+        "pending": false,
+        "text": "It is easy to order and the checks are great.  I feel the price of the checks are fine but the shipping and handling costs are high.",
+        "rating": 4,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2019-06-28T01:17:03.000Z",
+                "reviewSourceName": "AFSv1",
+                "verificationSource": "invitation",
+                "verificationLevel": null,
+                "hasDachExclusion": false
+            }
+        },
+        "title": "4 stars out of 5",
+        "likes": 0,
+        "source": "AFSv1",
+        "dates": {
+            "experiencedDate": null,
+            "publishedDate": "2019-06-28T01:17:03.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "5d156a8ebe59e83615de32e6",
+            "displayName": "Wanda ",
+            "imageUrl": "",
+            "numberOfReviews": 2,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": null,
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "5d15400342fa5606946c1e8b",
+        "filtered": false,
+        "pending": false,
+        "text": "I love the big cats check design. I don't like the extra fee I have to pay for handling.",
+        "rating": 4,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2019-06-27T22:15:31.000Z",
+                "reviewSourceName": "AFSv1",
+                "verificationSource": "invitation",
+                "verificationLevel": null,
+                "hasDachExclusion": false
+            }
+        },
+        "title": "I love the big cats check design",
+        "likes": 0,
+        "source": "AFSv1",
+        "dates": {
+            "experiencedDate": null,
+            "publishedDate": "2019-06-27T22:15:31.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "5d154003a9030c58d229ec2a",
+            "displayName": "Shawn Walther",
+            "imageUrl": "",
+            "numberOfReviews": 1,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": null,
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "5d15301042fa5606946c18f2",
+        "filtered": false,
+        "pending": false,
+        "text": "Good place to buy checks",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2019-06-27T21:07:28.000Z",
+                "reviewSourceName": "AFSv1",
+                "verificationSource": "invitation",
+                "verificationLevel": null,
+                "hasDachExclusion": false
+            }
+        },
+        "title": "Good place to buy checks",
+        "likes": 0,
+        "source": "AFSv1",
+        "dates": {
+            "experiencedDate": null,
+            "publishedDate": "2019-06-27T21:07:28.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "5aee0b544de5666d34483477",
+            "displayName": "Scott",
+            "imageUrl": "",
+            "numberOfReviews": 3,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": null,
+        "consumersReviewCountOnSameDomain": 2,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    }
+]

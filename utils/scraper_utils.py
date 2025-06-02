@@ -1,5 +1,5 @@
 import httpx
-import asyncio # Not strictly used but often good for async util files
+import asyncio
 from bs4 import BeautifulSoup
 import json
 import logging
@@ -26,7 +26,6 @@ RETRYABLE_STATUS_CODES_UTILS = (429, 500, 502, 503, 504)
 
 def _predicate_should_retry_httpx_status_error_utils(exception_value: BaseException) -> bool:
     if isinstance(exception_value, httpx.HTTPStatusError):
-        # Explicitly DO NOT let tenacity retry 403 here; it should propagate to fetch_page_fresh_ip
         if exception_value.response.status_code == 403:
             logger.debug(f"ScraperUtils: HTTPStatusError 403 for {exception_value.request.url}. Not retrying at this level; allowing propagation.")
             return False 
@@ -145,8 +144,7 @@ async def get_reviews_from_page_async(
     # logger.info(f"Async: Attempting to fetch reviews from: {url} (UA: {headers_for_request.get('User-Agent')})")
     try:
         response = await client.get(url, headers=headers_for_request)
-        response.raise_for_status() # Let this raise HTTPStatusError
-        # logger.debug(f"Async: Successfully fetched page content for reviews from {url}. Status code: {response.status_code}")
+        response.raise_for_status() 
         
         soup = BeautifulSoup(response.text, 'lxml')
         reviews_script_tag = soup.find("script", id="__NEXT_DATA__", type="application/json")

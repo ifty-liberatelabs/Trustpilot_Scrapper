@@ -1,0 +1,962 @@
+[
+    {
+        "id": "678d24e263a8e4bedb83f0fc",
+        "filtered": false,
+        "pending": false,
+        "text": "Muchas gracias. muy buen banco ",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2025-01-19T18:14:26.000Z",
+                "reviewSourceName": "InvitationApi",
+                "verificationSource": "invitation",
+                "verificationLevel": "verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "Muchas gracias",
+        "likes": 0,
+        "source": "InvitationApi",
+        "dates": {
+            "experiencedDate": "2025-01-19T00:00:00.000Z",
+            "publishedDate": "2025-01-19T18:14:26.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "678d24e0cda8b102cc59af49",
+            "displayName": "Cesar",
+            "imageUrl": "",
+            "numberOfReviews": 1,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": {
+            "message": "Agradecemos sus amables palabras. Nos alegra saber que ha tenido una experiencia positiva con nuestro banco.",
+            "publishedDate": "2025-01-20T20:42:15.000Z",
+            "updatedDate": null
+        },
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "es",
+        "location": null
+    },
+    {
+        "id": "678d0f26e2d5cef68e33de5f",
+        "filtered": false,
+        "pending": false,
+        "text": "Me gusta porque es muy rápido y seguro ",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2025-01-19T16:41:42.000Z",
+                "reviewSourceName": "InvitationApi",
+                "verificationSource": "invitation",
+                "verificationLevel": "verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "Me gusta porque es muy rápido y seguro",
+        "likes": 0,
+        "source": "InvitationApi",
+        "dates": {
+            "experiencedDate": "2025-01-19T00:00:00.000Z",
+            "publishedDate": "2025-01-19T16:41:42.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "678d0f24cda8b1c9f8599fa5",
+            "displayName": "Yubileiser",
+            "imageUrl": "",
+            "numberOfReviews": 1,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": {
+            "message": "Gracias por su comentario positivo. Nos alegra saber que valora la rapidez y seguridad de nuestro servicio.",
+            "publishedDate": "2025-01-20T20:42:19.000Z",
+            "updatedDate": null
+        },
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "es",
+        "location": null
+    },
+    {
+        "id": "678d0ab1958f1eec9e122ac4",
+        "filtered": false,
+        "pending": false,
+        "text": "Hasta los momentos muy bien",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2025-01-19T16:22:42.000Z",
+                "reviewSourceName": "InvitationApi",
+                "verificationSource": "invitation",
+                "verificationLevel": "verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "Excelente ",
+        "likes": 0,
+        "source": "InvitationApi",
+        "dates": {
+            "experiencedDate": "2025-01-18T00:00:00.000Z",
+            "publishedDate": "2025-01-19T16:22:42.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "678d0ab0c215329563c819a0",
+            "displayName": "Nelsy",
+            "imageUrl": "",
+            "numberOfReviews": 2,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": {
+            "message": "Gracias por su comentario positivo. Nos alegra saber que está satisfecho con nuestro servicio.",
+            "publishedDate": "2025-01-20T20:49:02.000Z",
+            "updatedDate": null
+        },
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "es",
+        "location": null
+    },
+    {
+        "id": "678d091de6e1f8caa48a9895",
+        "filtered": false,
+        "pending": false,
+        "text": "Excelente servicio ",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2025-01-19T16:15:57.000Z",
+                "reviewSourceName": "InvitationApi",
+                "verificationSource": "invitation",
+                "verificationLevel": "verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "Excelente servicio",
+        "likes": 0,
+        "source": "InvitationApi",
+        "dates": {
+            "experiencedDate": "2025-01-16T00:00:00.000Z",
+            "publishedDate": "2025-01-19T16:15:57.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "678d091cd145c41897884742",
+            "displayName": "Adolfo",
+            "imageUrl": "",
+            "numberOfReviews": 1,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": {
+            "message": "¡Gracias por tu comentario! Nos alegra saber que estás satisfecho con  nuestro servicio. Estamos comprometidos a brindarte el mejor servicio posible. Si necesitas ayuda en el futuro, no dudes en contactarnos. ¡Estamos aquí para ti!\"\n",
+            "publishedDate": "2025-01-20T20:52:34.000Z",
+            "updatedDate": null
+        },
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "es",
+        "location": null
+    },
+    {
+        "id": "678cfe68f408046ddea1907c",
+        "filtered": false,
+        "pending": false,
+        "text": "La rapidez de las transferencias ",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2025-01-19T15:30:16.000Z",
+                "reviewSourceName": "InvitationApi",
+                "verificationSource": "invitation",
+                "verificationLevel": "verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "La rapidez de las transferencias",
+        "likes": 0,
+        "source": "InvitationApi",
+        "dates": {
+            "experiencedDate": "2025-01-19T00:00:00.000Z",
+            "publishedDate": "2025-01-19T15:30:16.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "678cfe67b24f77765759c998",
+            "displayName": "Germain",
+            "imageUrl": "",
+            "numberOfReviews": 1,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": {
+            "message": "Gracias por su comentario positivo. Apreciamos que valore la rapidez de nuestras transferencias.",
+            "publishedDate": "2025-01-20T20:49:09.000Z",
+            "updatedDate": null
+        },
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "es",
+        "location": null
+    },
+    {
+        "id": "678cf741335218c4f5e3b096",
+        "filtered": false,
+        "pending": false,
+        "text": "Muy buen trabajo ",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2025-01-19T14:59:45.000Z",
+                "reviewSourceName": "InvitationApi",
+                "verificationSource": "invitation",
+                "verificationLevel": "verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "Muy excelente  buen trabajo",
+        "likes": 0,
+        "source": "InvitationApi",
+        "dates": {
+            "experiencedDate": "2025-01-16T00:00:00.000Z",
+            "publishedDate": "2025-01-19T14:59:45.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "678cf740cda8b156f7598b63",
+            "displayName": "Neidry",
+            "imageUrl": "",
+            "numberOfReviews": 1,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": {
+            "message": "¡Gracias por tu comentario! Nos alegra saber que estás satisfecho con la comunicación. Estamos comprometidos a brindarte el mejor servicio posible. Si necesitas ayuda en el futuro, no dudes en contactarnos. ¡Estamos aquí para ti!\"\n",
+            "publishedDate": "2025-01-20T20:52:39.000Z",
+            "updatedDate": null
+        },
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "es",
+        "location": null
+    },
+    {
+        "id": "678ce8aa219547d8133a604e",
+        "filtered": false,
+        "pending": false,
+        "text": "Rapidez\nMuy buena gestion \nMuchos beneficios ",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2025-01-19T13:57:30.000Z",
+                "reviewSourceName": "InvitationApi",
+                "verificationSource": "invitation",
+                "verificationLevel": "verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "La rapidez",
+        "likes": 0,
+        "source": "InvitationApi",
+        "dates": {
+            "experiencedDate": "2025-01-19T00:00:00.000Z",
+            "publishedDate": "2025-01-19T13:57:30.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "678ce8a8b24f774af159b697",
+            "displayName": "Gilbert",
+            "imageUrl": "",
+            "numberOfReviews": 1,
+            "countryCode": "VE",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": {
+            "message": "Gracias por su amable reseña. Nos alegra saber que ha tenido una experiencia positiva con nosotros. Valoramos su confianza y apreciamos sus comentarios.",
+            "publishedDate": "2025-01-20T20:49:17.000Z",
+            "updatedDate": null
+        },
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "es",
+        "location": null
+    },
+    {
+        "id": "678cb36d3ccda3a454ba022a",
+        "filtered": false,
+        "pending": false,
+        "text": "Excelente 👌🏻 ",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2025-01-19T10:10:21.000Z",
+                "reviewSourceName": "InvitationApi",
+                "verificationSource": "invitation",
+                "verificationLevel": "verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "Excelente 👌🏻",
+        "likes": 0,
+        "source": "InvitationApi",
+        "dates": {
+            "experiencedDate": "2025-01-19T00:00:00.000Z",
+            "publishedDate": "2025-01-19T10:10:21.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "678cb36bcda8b1b1795959b9",
+            "displayName": "Katheryns",
+            "imageUrl": "",
+            "numberOfReviews": 1,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": {
+            "message": "\"¡Gracias por tu comentario, Nos alegra saber que estás satisfecho con nuestro servicio. Estamos aquí para ayudarte siempre que lo necesites. ",
+            "publishedDate": "2025-01-20T20:52:53.000Z",
+            "updatedDate": null
+        },
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "es",
+        "location": null
+    },
+    {
+        "id": "678ca8526cd6236861222058",
+        "filtered": false,
+        "pending": false,
+        "text": "Todo es muy rápido sus servicios son muy útiles y sencillo de utilizar no me ha defraudado es muy buena tarjeta ",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2025-01-19T09:22:58.000Z",
+                "reviewSourceName": "InvitationApi",
+                "verificationSource": "invitation",
+                "verificationLevel": "verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "Todo es muy rápido sus servicios son…",
+        "likes": 0,
+        "source": "InvitationApi",
+        "dates": {
+            "experiencedDate": "2025-01-19T00:00:00.000Z",
+            "publishedDate": "2025-01-19T09:22:58.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "678ca851fb43699770d0e698",
+            "displayName": "Alejandro",
+            "imageUrl": "",
+            "numberOfReviews": 1,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": {
+            "message": "Gracias por su comentario positivo. Nos alegra saber que encuentra nuestros servicios útiles, rápidos y fáciles de usar. Valoramos mucho su confianza y nos esforzamos por ofrecer la mejor experiencia posible a nuestros clientes.",
+            "publishedDate": "2025-01-20T20:49:24.000Z",
+            "updatedDate": null
+        },
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "es",
+        "location": null
+    },
+    {
+        "id": "678c8a2a24d8d5d3aad6cac5",
+        "filtered": false,
+        "pending": false,
+        "text": "Muy buen servicio ",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2025-01-19T07:14:18.000Z",
+                "reviewSourceName": "InvitationApi",
+                "verificationSource": "invitation",
+                "verificationLevel": "verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "Muy buen servicio",
+        "likes": 0,
+        "source": "InvitationApi",
+        "dates": {
+            "experiencedDate": "2025-01-14T00:00:00.000Z",
+            "publishedDate": "2025-01-19T07:14:18.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "678c8a29fd77a708bb373f1f",
+            "displayName": "Jose",
+            "imageUrl": "",
+            "numberOfReviews": 1,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": {
+            "message": "Nos alegra saber que tu experiencia con nuestro servicio en línea fue positiva. Valoramos mucho tu confianza y esperamos poder atenderte nuevamente muy pronto.\nSi necesitas algo más, no dudes en contactarnos.\n",
+            "publishedDate": "2025-01-20T20:54:18.000Z",
+            "updatedDate": null
+        },
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "es",
+        "location": null
+    },
+    {
+        "id": "678c63ebbe3fbd9a0bdaedd6",
+        "filtered": false,
+        "pending": false,
+        "text": "Todo excelente ",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2025-01-19T04:31:07.000Z",
+                "reviewSourceName": "InvitationApi",
+                "verificationSource": "invitation",
+                "verificationLevel": "verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "Todo excelente",
+        "likes": 0,
+        "source": "InvitationApi",
+        "dates": {
+            "experiencedDate": "2025-01-16T00:00:00.000Z",
+            "publishedDate": "2025-01-19T04:31:07.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "678c63eacda8b1e0ee5940e3",
+            "displayName": "Jose",
+            "imageUrl": "",
+            "numberOfReviews": 1,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": {
+            "message": "\"¡Gracias por tu comentario, Nos alegra saber que estás satisfecho con nuestro servicio. Estamos aquí para ayudarte siempre que lo necesites. ",
+            "publishedDate": "2025-01-20T20:53:00.000Z",
+            "updatedDate": null
+        },
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "es",
+        "location": null
+    },
+    {
+        "id": "678c3e7a71693319b5084be0",
+        "filtered": false,
+        "pending": false,
+        "text": "Envías en EEUU rápidos y directos   pero nose que Aser para poder seguir enviando dinero a otros países fuera de EEUU \n",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2025-01-19T01:51:22.000Z",
+                "reviewSourceName": "InvitationApi",
+                "verificationSource": "invitation",
+                "verificationLevel": "verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "Envías en EEUU rápidos y directos  …",
+        "likes": 0,
+        "source": "InvitationApi",
+        "dates": {
+            "experiencedDate": "2025-01-15T00:00:00.000Z",
+            "publishedDate": "2025-01-19T01:51:22.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "678c3e79c215322ddbc7b04f",
+            "displayName": "Eluvia",
+            "imageUrl": "",
+            "numberOfReviews": 1,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": null,
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": 1,
+        "productReviews": [],
+        "language": "es",
+        "location": {
+            "id": "53b0d6a4-41a0-42e1-9f71-c89f9f1b007c",
+            "name": "Meetup Dallas",
+            "urlFormattedName": "meetup-dallas"
+        }
+    },
+    {
+        "id": "678c2e9e865f5b6149af2b62",
+        "filtered": false,
+        "pending": false,
+        "text": "Que es rápido y seguro el precio del dolar una excelente app 100% recomendada ",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2025-01-19T00:43:42.000Z",
+                "reviewSourceName": "InvitationApi",
+                "verificationSource": "invitation",
+                "verificationLevel": "verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "Que es rápido y seguro el precio del…",
+        "likes": 0,
+        "source": "InvitationApi",
+        "dates": {
+            "experiencedDate": "2025-01-18T00:00:00.000Z",
+            "publishedDate": "2025-01-19T00:43:42.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "678c2e9dc2153216d0c7a7c7",
+            "displayName": "Jaime",
+            "imageUrl": "",
+            "numberOfReviews": 1,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": {
+            "message": "¡Muchas gracias por su amable reseña! Nos alegra saber que encuentra nuestra aplicación rápida, segura y útil para consultar el precio del dólar. Valoramos mucho su confianza y recomendación.",
+            "publishedDate": "2025-01-20T20:49:35.000Z",
+            "updatedDate": null
+        },
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "es",
+        "location": null
+    },
+    {
+        "id": "678c1fe8d5d87dcf15e92d7f",
+        "filtered": false,
+        "pending": false,
+        "text": "Excelente nunca e tenido problemas ni en recargas ni en transferencias ",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2025-01-18T23:40:56.000Z",
+                "reviewSourceName": "InvitationApi",
+                "verificationSource": "invitation",
+                "verificationLevel": "verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "Excelente nunca e tenido problemas ni…",
+        "likes": 0,
+        "source": "InvitationApi",
+        "dates": {
+            "experiencedDate": "2025-01-18T00:00:00.000Z",
+            "publishedDate": "2025-01-18T23:40:56.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "678c1fe742ab39482298cc69",
+            "displayName": "Margelin",
+            "imageUrl": "",
+            "numberOfReviews": 1,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": {
+            "message": "¡Muchas gracias por su comentario positivo! Nos alegra saber que ha tenido una experiencia positiva con nuestras recargas y transferencias. Valoramos su confianza y seguiremos trabajando para ofrecerle el mejor servicio posible.",
+            "publishedDate": "2025-01-20T20:49:43.000Z",
+            "updatedDate": null
+        },
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "es",
+        "location": null
+    },
+    {
+        "id": "678c1ac2b9d3877ca19df568",
+        "filtered": false,
+        "pending": false,
+        "text": "Mayoriti es lo mejor muy seguro y confíable puedes hacer transferecias desde los estados unidos a cualquier otro pais sin problemas prueven mayority es muy bueno",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2025-01-18T23:18:58.000Z",
+                "reviewSourceName": "InvitationApi",
+                "verificationSource": "invitation",
+                "verificationLevel": "verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "Mayoriti es lo mejor muy seguro y…",
+        "likes": 0,
+        "source": "InvitationApi",
+        "dates": {
+            "experiencedDate": "2025-01-18T00:00:00.000Z",
+            "publishedDate": "2025-01-18T23:18:58.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "653979daebd38900138b8ae1",
+            "displayName": "Jolfrank",
+            "imageUrl": "https://user-images.trustpilot.com/653979daebd38900138b8ae1/73x73.png",
+            "numberOfReviews": 2,
+            "countryCode": "US",
+            "hasImage": true,
+            "isVerified": true
+        },
+        "reply": {
+            "message": "¡Muchas gracias por su reseña positiva! Nos alegra saber que ha tenido una experiencia positiva con nuestra plataforma. Valoramos su confianza y nos esforzamos por ofrecer un servicio seguro y confiable para sus transferencias internacionales.",
+            "publishedDate": "2025-01-20T20:49:50.000Z",
+            "updatedDate": null
+        },
+        "consumersReviewCountOnSameDomain": 2,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "es",
+        "location": null
+    },
+    {
+        "id": "678c194a2ab092e49f5874c4",
+        "filtered": false,
+        "pending": false,
+        "text": "Muy buena me gusta es eficiente ",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2025-01-18T23:12:42.000Z",
+                "reviewSourceName": "InvitationApi",
+                "verificationSource": "invitation",
+                "verificationLevel": "verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "Muy buena me gusta es eficiente",
+        "likes": 0,
+        "source": "InvitationApi",
+        "dates": {
+            "experiencedDate": "2025-01-18T00:00:00.000Z",
+            "publishedDate": "2025-01-18T23:12:42.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "678c1949fd77a7b9b8370f3a",
+            "displayName": "Willian",
+            "imageUrl": "",
+            "numberOfReviews": 1,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": null,
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": 1,
+        "productReviews": [],
+        "language": "es",
+        "location": {
+            "id": "53b0d6a4-41a0-42e1-9f71-c89f9f1b007c",
+            "name": "Meetup Dallas",
+            "urlFormattedName": "meetup-dallas"
+        }
+    },
+    {
+        "id": "678c07fbffb87bff79f04f3e",
+        "filtered": false,
+        "pending": false,
+        "text": "Me encanta mi cuarto majority",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2025-01-18T21:58:51.000Z",
+                "reviewSourceName": "InvitationApi",
+                "verificationSource": "invitation",
+                "verificationLevel": "verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "Me encanta mi cuarto majority",
+        "likes": 0,
+        "source": "InvitationApi",
+        "dates": {
+            "experiencedDate": "2025-01-15T00:00:00.000Z",
+            "publishedDate": "2025-01-18T21:58:51.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "678c07fa303037eddfc0a10b",
+            "displayName": "Eulizbeth",
+            "imageUrl": "",
+            "numberOfReviews": 1,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": {
+            "message": "¡Nos alegra saber que disfruta del servicio de Majority ! Gracias por compartir su experiencia positiva con nosotros.",
+            "publishedDate": "2025-01-20T20:50:28.000Z",
+            "updatedDate": null
+        },
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "es",
+        "location": null
+    },
+    {
+        "id": "678c07d70d4164e6b4f62d80",
+        "filtered": false,
+        "pending": false,
+        "text": "Me gusta mucho x como puedo transferir a mia familiares en Venezuela y colombia muy satifecho",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2025-01-18T21:58:15.000Z",
+                "reviewSourceName": "InvitationApi",
+                "verificationSource": "invitation",
+                "verificationLevel": "verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "Me gusta mucho x como puedo transferir…",
+        "likes": 0,
+        "source": "InvitationApi",
+        "dates": {
+            "experiencedDate": "2025-01-15T00:00:00.000Z",
+            "publishedDate": "2025-01-18T21:58:15.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "678c07d6fd77a741803705d9",
+            "displayName": "Jesús",
+            "imageUrl": "",
+            "numberOfReviews": 1,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": {
+            "message": "Entendemos que la posibilidad de transferir dinero a sus familiares en Venezuela y Colombia es muy importante para usted. Nos alegra saber que está satisfecho con nuestro servicio.",
+            "publishedDate": "2025-01-20T20:50:41.000Z",
+            "updatedDate": null
+        },
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "es",
+        "location": null
+    },
+    {
+        "id": "678bea4657dddbc64d4b0160",
+        "filtered": false,
+        "pending": false,
+        "text": "E depositado toda mi confianza en esta cuenta virtual por los momentos no e tenido problemas en la aplicación solo es que ya no vamos a tener acceso al Zelle lo eliminaran  la aplicación es lo único que puedo decir ",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2025-01-18T19:52:06.000Z",
+                "reviewSourceName": "InvitationApi",
+                "verificationSource": "invitation",
+                "verificationLevel": "verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "E depositado toda mi confianza en esta…",
+        "likes": 0,
+        "source": "InvitationApi",
+        "dates": {
+            "experiencedDate": "2025-01-17T00:00:00.000Z",
+            "publishedDate": "2025-01-18T19:52:06.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "678bea45fb43698332d093e7",
+            "displayName": "Sandy",
+            "imageUrl": "",
+            "numberOfReviews": 1,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": {
+            "message": "Entendemos su preocupación por la eliminación de Zelle de la aplicación. Valoramos su confianza y estamos trabajando para ofrecerle las mejores opciones de pago. Apreciamos su retroalimentación y continuaremos mejorando nuestra plataforma para brindarle la mejor experiencia posible.",
+            "publishedDate": "2025-01-20T20:51:03.000Z",
+            "updatedDate": null
+        },
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "es",
+        "location": null
+    },
+    {
+        "id": "678bc1a994967050eb2bcaf0",
+        "filtered": false,
+        "pending": false,
+        "text": "Soy latina y la tarjeta me  ayudado demasiado muchísimo y me siento agradecido por que me dio la oportunidad de ayudar años míos a través de la aplicación y si tarjetas ",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2025-01-18T16:58:49.000Z",
+                "reviewSourceName": "InvitationApi",
+                "verificationSource": "invitation",
+                "verificationLevel": "verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "Soy latina y la tarjeta me  ayudado…",
+        "likes": 0,
+        "source": "InvitationApi",
+        "dates": {
+            "experiencedDate": "2025-01-13T00:00:00.000Z",
+            "publishedDate": "2025-01-18T16:58:49.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "678bc1a909b9dc6c72c63e42",
+            "displayName": "Meyling",
+            "imageUrl": "",
+            "numberOfReviews": 1,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": {
+            "message": "Entendemos que la tarjeta te ha ayudado mucho y que te sientes agradecido por la oportunidad que te ha brindado. Nos alegra saber que la aplicación y las tarjetas te han sido de utilidad.",
+            "publishedDate": "2025-01-20T20:51:13.000Z",
+            "updatedDate": null
+        },
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "es",
+        "location": null
+    }
+]

@@ -1,0 +1,962 @@
+[
+    {
+        "id": "5f85a469798e6f0bcc43d782",
+        "filtered": false,
+        "pending": false,
+        "text": "I received good service.",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2020-10-13T12:58:17.000Z",
+                "reviewSourceName": "AFSv2",
+                "verificationSource": "invitation",
+                "verificationLevel": "verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "I received good service.",
+        "likes": 0,
+        "source": "AFSv2",
+        "dates": {
+            "experiencedDate": null,
+            "publishedDate": "2020-10-13T12:58:17.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "5f85a468344afb001998985a",
+            "displayName": "Robert",
+            "imageUrl": "",
+            "numberOfReviews": 2,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": {
+            "message": "Hi there, Robert. Thank you so much for this awesome 5-star review! We're happy to know that our products and customer care services were able to provide assistance to you! It’s members like you that help make MoneyLion ROAR! Given you’ve expressed a positive experience with MoneyLion, would you be open to also sharing this review on other review sites, including Google Play, Apple Store, BBB, and Wallethub? Thanks again for being the best part of MoneyLion!",
+            "publishedDate": "2020-10-13T15:17:09.337Z",
+            "updatedDate": null
+        },
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "5f85a423798e6f0bcc43d71f",
+        "filtered": false,
+        "pending": false,
+        "text": "The process is easy and painless.",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2020-10-13T12:57:07.000Z",
+                "reviewSourceName": "AFSv2",
+                "verificationSource": "invitation",
+                "verificationLevel": "verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "The process is easy and painless.",
+        "likes": 0,
+        "source": "AFSv2",
+        "dates": {
+            "experiencedDate": null,
+            "publishedDate": "2020-10-13T12:57:07.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "5bacb8804de5666d34272604",
+            "displayName": "Dawn Merchant",
+            "imageUrl": "",
+            "numberOfReviews": 2,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": {
+            "message": "Hi there, Dawn. Thank you so much for this awesome 5-star review! We're happy to know that our products and other services were able to provide assistance and help you securing that financial stability! It’s members like you that help make MoneyLion ROAR! Given you’ve expressed a positive experience with MoneyLion, would you be open to also sharing this review on other review sites, including Google Play, Apple Store, BBB, and Wallethub? Thanks again for being the best part of MoneyLion!",
+            "publishedDate": "2020-10-13T17:23:49.965Z",
+            "updatedDate": null
+        },
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "5f85a3a6798e6f0bcc43d678",
+        "filtered": false,
+        "pending": false,
+        "text": "I love it straight forward fees are low.. and it comes in handy",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2020-10-13T12:55:02.000Z",
+                "reviewSourceName": "AFSv2",
+                "verificationSource": "invitation",
+                "verificationLevel": "verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "I love it straight forward fees are…",
+        "likes": 0,
+        "source": "AFSv2",
+        "dates": {
+            "experiencedDate": null,
+            "publishedDate": "2020-10-13T12:55:02.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "5f85a3a5344afb00199897e6",
+            "displayName": "Mesha",
+            "imageUrl": "",
+            "numberOfReviews": 1,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": {
+            "message": "Hi there, Mesha. Thank you so much for this awesome 5-star review! We're happy to know that our products and services were able to provide assistance to you! It’s members like you that help make MoneyLion ROAR! Given you’ve expressed a positive experience with MoneyLion, would you be open to also sharing this review on other review sites, including Google Play, Apple Store, BBB, and Wallethub? Thanks again for being the best part of MoneyLion!",
+            "publishedDate": "2020-10-13T15:03:21.278Z",
+            "updatedDate": null
+        },
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "5f85a349798e6f0bcc43d5e6",
+        "filtered": false,
+        "pending": false,
+        "text": "great account love Money Lion great app",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2020-10-13T12:53:29.000Z",
+                "reviewSourceName": "AFSv2",
+                "verificationSource": "invitation",
+                "verificationLevel": "verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "Great Account",
+        "likes": 0,
+        "source": "AFSv2",
+        "dates": {
+            "experiencedDate": null,
+            "publishedDate": "2020-10-13T12:53:29.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "5cb3394089c59b1e7cdac8d3",
+            "displayName": "customer",
+            "imageUrl": "",
+            "numberOfReviews": 4,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": {
+            "message": "Hi there. Thank you so much for this awesome 5-star review! We're happy to know that our products and services were able to provide assistance to you! It’s members like you that help make MoneyLion ROAR! Given you’ve expressed a positive experience with MoneyLion, would you be open to also sharing this review on other review sites, including Google Play, Apple Store, BBB, and Wallethub? Thanks again for being the best part of MoneyLion!",
+            "publishedDate": "2020-10-13T13:32:10.878Z",
+            "updatedDate": null
+        },
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "5f85a339798e6f07705cf9de",
+        "filtered": false,
+        "pending": false,
+        "text": "I have experienced a few lending services and this one once approved really came in hand, I appreciated the surprise increase in lending and no hassle. Thanks",
+        "rating": 4,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2020-10-13T12:53:13.000Z",
+                "reviewSourceName": "AFSv2",
+                "verificationSource": "invitation",
+                "verificationLevel": "verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "I have experienced a few lending…",
+        "likes": 0,
+        "source": "AFSv2",
+        "dates": {
+            "experiencedDate": null,
+            "publishedDate": "2020-10-13T12:53:13.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "5f85a33986e56d001ca2b68a",
+            "displayName": "garry",
+            "imageUrl": "",
+            "numberOfReviews": 2,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": {
+            "message": "Thanks so much for this positive review! It’s members like you that help make MoneyLion ROAR!  Thanks again for being the best part of MoneyLion! \n",
+            "publishedDate": "2020-10-14T19:49:46.138Z",
+            "updatedDate": null
+        },
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "5f85a30b798e6f0bcc43d59a",
+        "filtered": false,
+        "pending": false,
+        "text": "They are excellent and I would definitely recommend them",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2020-10-13T12:52:27.000Z",
+                "reviewSourceName": "AFSv2",
+                "verificationSource": "invitation",
+                "verificationLevel": "verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "They are excellent and I would…",
+        "likes": 0,
+        "source": "AFSv2",
+        "dates": {
+            "experiencedDate": null,
+            "publishedDate": "2020-10-13T12:52:27.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "5f85a30a86e56d001ca2b674",
+            "displayName": "asha",
+            "imageUrl": "",
+            "numberOfReviews": 1,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": {
+            "message": "Hi there, Asha. Thank you so much for this awesome 5-star review! We're happy to know that our products and other services are able to provide assistance and help you with securing that financial stability! It’s members like you that help makes MoneyLion ROAR! Given you’ve expressed a positive experience with MoneyLion, would you be open to also sharing this review on other review sites, including Google Play, Apple Store, BBB, and Wallethub? Thanks again for being the best part of MoneyLion!",
+            "publishedDate": "2020-10-13T17:31:17.688Z",
+            "updatedDate": null
+        },
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "5f85a301798e6f0bcc43d586",
+        "filtered": false,
+        "pending": false,
+        "text": "So far soo good",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2020-10-13T12:52:17.000Z",
+                "reviewSourceName": "AFSv2",
+                "verificationSource": "invitation",
+                "verificationLevel": "verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "So far soo good",
+        "likes": 0,
+        "source": "AFSv2",
+        "dates": {
+            "experiencedDate": null,
+            "publishedDate": "2020-10-13T12:52:17.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "5f85a301ddf23c001a7ff8e7",
+            "displayName": "rydell",
+            "imageUrl": "",
+            "numberOfReviews": 1,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": {
+            "message": "Hi there, Rydell. Thank you so much for this awesome 5-star review! We're happy to know that our products and other services were able to provide assistance and help you securing that financial stability! It’s members like you that help make MoneyLion ROAR! Given you’ve expressed a positive experience with MoneyLion, would you be open to also sharing this review on other review sites, including Google Play, Apple Store, BBB, and Wallethub? Thanks again for being the best part of MoneyLion!",
+            "publishedDate": "2020-10-13T17:10:39.410Z",
+            "updatedDate": null
+        },
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "5f85a2df798e6f0bcc43d558",
+        "filtered": false,
+        "pending": false,
+        "text": "Clutch Service! When u need it most.",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2020-10-13T12:51:43.000Z",
+                "reviewSourceName": "AFSv2",
+                "verificationSource": "invitation",
+                "verificationLevel": "verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "Clutch Service",
+        "likes": 0,
+        "source": "AFSv2",
+        "dates": {
+            "experiencedDate": null,
+            "publishedDate": "2020-10-13T12:51:43.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "5f85a2df683bb3001a99802b",
+            "displayName": "SEAN",
+            "imageUrl": "",
+            "numberOfReviews": 1,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": {
+            "message": "Hi there, Sean. Thank you so much for this awesome 5-star review! We're happy to know that our products and customer care services were able to provide assistance to you! It’s members like you that help make MoneyLion ROAR! Given you’ve expressed a positive experience with MoneyLion, would you be open to also sharing this review on other review sites, including Google Play, Apple Store, BBB, and Wallethub? Thanks again for being the best part of MoneyLion!",
+            "publishedDate": "2020-10-13T13:21:42.375Z",
+            "updatedDate": null
+        },
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "5f85a191798e6f07705cf788",
+        "filtered": false,
+        "pending": false,
+        "text": "I have been trying to paid for my membership for month contact 3 times and nothing has happened this is not good and is scammy to me I am not happy with my account any more",
+        "rating": 1,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2020-10-13T12:46:09.000Z",
+                "reviewSourceName": "AFSv2",
+                "verificationSource": "invitation",
+                "verificationLevel": "verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "Not happy with my account",
+        "likes": 0,
+        "source": "AFSv2",
+        "dates": {
+            "experiencedDate": null,
+            "publishedDate": "2020-10-13T12:46:09.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "5f85a190ddf23c001a7ff80a",
+            "displayName": "maria e",
+            "imageUrl": "",
+            "numberOfReviews": 1,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": {
+            "message": "We apologize to hear about your experience with MoneyLion. We would like to help resolve your concerns but are unable to locate your account to reach out to you. Please use the form linked below to fill out and we will contact you directly. https://moneylioncomplaints.zendesk.com/hc/en-us/requests/new\n",
+            "publishedDate": "2020-10-15T22:24:53.025Z",
+            "updatedDate": null
+        },
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "5f85a168798e6f07705cf74a",
+        "filtered": false,
+        "pending": false,
+        "text": "Too many fees. The tips and all of that is ridiculous. If anything just charge a yearly subscription or something rather than adding more to what I owe. I’m already struggling and that has made it 100% harder. Screw this app. I’d go to grab $25 out and after the tip and fees I’d owe $40 back. That’s absurd. Screw y’all.",
+        "rating": 1,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2020-10-13T12:45:28.000Z",
+                "reviewSourceName": "AFSv2",
+                "verificationSource": "invitation",
+                "verificationLevel": "verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "Highway robbery",
+        "likes": 0,
+        "source": "AFSv2",
+        "dates": {
+            "experiencedDate": null,
+            "publishedDate": "2020-10-13T12:45:28.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "5f85a168eb12ce001a2b17e2",
+            "displayName": "jem",
+            "imageUrl": "",
+            "numberOfReviews": 1,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": {
+            "message": " Hi Jem, Tipping is optional, and whether you choose to tip doesn’t affect your eligibility in any way. Pay what you think is fair, or don't pay at all, it's up to you. Just be sure to read the screens and make your selections carefully, and you can use Instacash without tips or fees if you choose. That said, if you choose to leave a tip — thank you! It helps us cover the costs of providing 0% APR cash advance to many, many folks like you!",
+            "publishedDate": "2020-10-15T22:25:39.103Z",
+            "updatedDate": null
+        },
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "5f85a132798e6f0bcc43d2ff",
+        "filtered": false,
+        "pending": false,
+        "text": "Easy and flexible. MoneyLion is a safe and easy way to create an emergency fund when you need it.",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2020-10-13T12:44:34.000Z",
+                "reviewSourceName": "AFSv2",
+                "verificationSource": "invitation",
+                "verificationLevel": "verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "Easy and flexible",
+        "likes": 0,
+        "source": "AFSv2",
+        "dates": {
+            "experiencedDate": null,
+            "publishedDate": "2020-10-13T12:44:34.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "5f85a13286e56d001ca2b53b",
+            "displayName": "tameka",
+            "imageUrl": "",
+            "numberOfReviews": 2,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": {
+            "message": "Hi there, Tameka. Thank you so much for this awesome 5-star review! We're happy to know that our products and services were able to provide assistance to you! It’s members like you that help make MoneyLion ROAR! Given you’ve expressed a positive experience with MoneyLion, would you be open to also sharing this review on other review sites, including Google Play, Apple Store, BBB, and Wallethub? Thanks again for being the best part of MoneyLion!",
+            "publishedDate": "2020-10-13T13:22:20.710Z",
+            "updatedDate": null
+        },
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "5f85a0e6798e6f0bcc43d296",
+        "filtered": false,
+        "pending": false,
+        "text": "Money lion is ALWAYS giving me the run around. Never want to solve anything",
+        "rating": 1,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2020-10-13T12:43:18.000Z",
+                "reviewSourceName": "AFSv2",
+                "verificationSource": "invitation",
+                "verificationLevel": "verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "Money lion is ALWAYS giving me the run…",
+        "likes": 0,
+        "source": "AFSv2",
+        "dates": {
+            "experiencedDate": null,
+            "publishedDate": "2020-10-13T12:43:18.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "5f85a0e6344afb0019989636",
+            "displayName": "lydia",
+            "imageUrl": "",
+            "numberOfReviews": 1,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": {
+            "message": "Hi Lydia,\nWe apologize to hear about your experience with MoneyLion. We would like to help resolve your concerns but are unable to locate your account to reach out to you. Please use the form linked below to fill out and we will contact you directly. https://moneylioncomplaints.zendesk.com/hc/en-us/requests/new\n",
+            "publishedDate": "2020-10-15T22:26:12.431Z",
+            "updatedDate": null
+        },
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "5f859fa6798e6f07705cf4d3",
+        "filtered": false,
+        "pending": false,
+        "text": "I can't link my checking account to get the credit builder loan",
+        "rating": 4,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2020-10-13T12:37:58.000Z",
+                "reviewSourceName": "AFSv2",
+                "verificationSource": "invitation",
+                "verificationLevel": "verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "I can't link my checking account to get…",
+        "likes": 0,
+        "source": "AFSv2",
+        "dates": {
+            "experiencedDate": null,
+            "publishedDate": "2020-10-13T12:37:58.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "5f859fa65ae6190019ca1915",
+            "displayName": "loretta",
+            "imageUrl": "",
+            "numberOfReviews": 1,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": {
+            "message": "Hi Loretta, There’s a small number of banks that may not pass the strict security verification process we use when you link them to apply for loans or other products. This can change from time to time as banks and technologies advance. Sorry for any inconvenience; we invite you to try linking another account to qualify or to check back to see if your bank can be securely verified at a later date.",
+            "publishedDate": "2020-10-15T22:27:00.130Z",
+            "updatedDate": null
+        },
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "5f859f4e798e6f07705cf44b",
+        "filtered": false,
+        "pending": false,
+        "text": "You guys kick butt. Your the best that I have dealt with. Extremely very helpful. Thank you! 🤗",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2020-10-13T12:36:30.000Z",
+                "reviewSourceName": "AFSv2",
+                "verificationSource": "invitation",
+                "verificationLevel": "verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "Thankfull",
+        "likes": 0,
+        "source": "AFSv2",
+        "dates": {
+            "experiencedDate": null,
+            "publishedDate": "2020-10-13T12:36:30.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "5f166c2b96fe87152e23f8a0",
+            "displayName": "John Loew",
+            "imageUrl": "",
+            "numberOfReviews": 1,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": {
+            "message": "Hi there, John. Thank you so much for this awesome 5-star review! We're happy to know that our products and other services were able to provide assistance and help you securing that financial stability! It’s members like you that help make MoneyLion ROAR! Given you’ve expressed a positive experience with MoneyLion, would you be open to also sharing this review on other review sites, including Google Play, Apple Store, BBB, and Wallethub? Thanks again for being the best part of MoneyLion!",
+            "publishedDate": "2020-10-13T17:18:11.516Z",
+            "updatedDate": null
+        },
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "5f859ec0798e6f0bcc43cf71",
+        "filtered": false,
+        "pending": false,
+        "text": "Takes to long to receive Mo ey",
+        "rating": 3,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2020-10-13T12:34:08.000Z",
+                "reviewSourceName": "AFSv2",
+                "verificationSource": "invitation",
+                "verificationLevel": "verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "Takes to long to receive Mo ey",
+        "likes": 0,
+        "source": "AFSv2",
+        "dates": {
+            "experiencedDate": null,
+            "publishedDate": "2020-10-13T12:34:08.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "5f859ec0a547250019cf4391",
+            "displayName": "sal",
+            "imageUrl": "",
+            "numberOfReviews": 1,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": {
+            "message": "We apologize to hear about your experience with MoneyLion. We would like to help resolve your concerns but are unable to locate your account to reach out to you. Please use the form linked below to fill out and we will contact you directly. https://moneylioncomplaints.zendesk.com/hc/en-us/requests/new\n",
+            "publishedDate": "2020-10-15T22:27:20.739Z",
+            "updatedDate": null
+        },
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "5f859ebb798e6f0bcc43cf67",
+        "filtered": false,
+        "pending": false,
+        "text": "Like the app but wish they allow to deposit checks",
+        "rating": 4,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2020-10-13T12:34:03.000Z",
+                "reviewSourceName": "AFSv2",
+                "verificationSource": "invitation",
+                "verificationLevel": "verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "Ether than a regular bank",
+        "likes": 0,
+        "source": "AFSv2",
+        "dates": {
+            "experiencedDate": null,
+            "publishedDate": "2020-10-13T12:34:03.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "56a7e89b0000ff000a002ab3",
+            "displayName": "Lesme Almaguer",
+            "imageUrl": "",
+            "numberOfReviews": 3,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": {
+            "message": "Hi there, Susie! Thank you so much for this awesome 4-star review! We're happy to know that our products and other services are able to provide assistance and help you with securing that financial stability! We do appreciate your feedback so that we may continue to improve our products and services. It’s members like you that help makes MoneyLion ROAR! Given you’ve expressed a positive experience with MoneyLion, would you be open to also sharing this review on other review sites, including Google Play, Apple Store, BBB, and Wallethub? Thanks again for being the best part of the MoneyLion.",
+            "publishedDate": "2020-10-13T19:58:19.786Z",
+            "updatedDate": null
+        },
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "5f859e66798e6f07705cf2e2",
+        "filtered": false,
+        "pending": false,
+        "text": "Your fast and reliable when I need it",
+        "rating": 4,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2020-10-13T12:32:38.000Z",
+                "reviewSourceName": "AFSv2",
+                "verificationSource": "invitation",
+                "verificationLevel": "verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "Fast",
+        "likes": 0,
+        "source": "AFSv2",
+        "dates": {
+            "experiencedDate": null,
+            "publishedDate": "2020-10-13T12:32:38.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "5f859e66ddf23c001a7ff620",
+            "displayName": "rebecca",
+            "imageUrl": "",
+            "numberOfReviews": 1,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": {
+            "message": "Hi there, Rebecca! Thank you so much for this awesome 4-star review! We're happy to know that our products and other services are able to provide assistance and help you with securing that financial stability! We do appreciate your feedback so that we may continue to improve our products and services. It’s members like you that help makes MoneyLion ROAR! Given you’ve expressed a positive experience with MoneyLion, would you be open to also sharing this review on other review sites, including Google Play, Apple Store, BBB, and Wallethub? Thanks again for being the best part of the MoneyLion.",
+            "publishedDate": "2020-10-13T20:03:33.938Z",
+            "updatedDate": null
+        },
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "5f859e27798e6f0bcc43ce77",
+        "filtered": false,
+        "pending": false,
+        "text": "Good service",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2020-10-13T12:31:35.000Z",
+                "reviewSourceName": "AFSv2",
+                "verificationSource": "invitation",
+                "verificationLevel": "verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "Good service",
+        "likes": 0,
+        "source": "AFSv2",
+        "dates": {
+            "experiencedDate": null,
+            "publishedDate": "2020-10-13T12:31:35.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "5bb7a2914de5666d34a19c74",
+            "displayName": "Elijah Johnson",
+            "imageUrl": "",
+            "numberOfReviews": 6,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": {
+            "message": "Hi there, Elijah Johnson. Thank you so much for this awesome 5-star review! We're happy to know that our products and services were able to provide assistance to you! It’s members like you that help make MoneyLion ROAR! Given you’ve expressed a positive experience with MoneyLion, would you be open to also sharing this review on other review sites, including Google Play, Apple Store, BBB, and Wallethub? Thanks again for being the best part of MoneyLion!",
+            "publishedDate": "2020-10-13T13:28:13.311Z",
+            "updatedDate": null
+        },
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "5f859e1b798e6f07705cf26d",
+        "filtered": false,
+        "pending": false,
+        "text": "Great company fast and available when I need it the most.",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2020-10-13T12:31:23.000Z",
+                "reviewSourceName": "AFSv2",
+                "verificationSource": "invitation",
+                "verificationLevel": "verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "Great company fast and available when I…",
+        "likes": 0,
+        "source": "AFSv2",
+        "dates": {
+            "experiencedDate": null,
+            "publishedDate": "2020-10-13T12:31:23.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "5f859e1b36cf2e001bd44b4a",
+            "displayName": "Kayla",
+            "imageUrl": "",
+            "numberOfReviews": 1,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": {
+            "message": "Hi there, Kayla. Thank you so much for this awesome 5-star review! We're happy to know that our products and services were able to provide assistance to you! It’s members like you that help make MoneyLion ROAR! Given you’ve expressed a positive experience with MoneyLion, would you be open to also sharing this review on other review sites, including Google Play, Apple Store, BBB, and Wallethub? Thanks again for being the best part of MoneyLion!",
+            "publishedDate": "2020-10-13T14:46:43.197Z",
+            "updatedDate": null
+        },
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    },
+    {
+        "id": "5f859d1f798e6f07705cf0de",
+        "filtered": false,
+        "pending": false,
+        "text": "Very helpful when money is tight.  Thank you!",
+        "rating": 5,
+        "labels": {
+            "merged": null,
+            "verification": {
+                "isVerified": true,
+                "createdDateTime": "2020-10-13T12:27:11.000Z",
+                "reviewSourceName": "AFSv2",
+                "verificationSource": "invitation",
+                "verificationLevel": "verified",
+                "hasDachExclusion": false
+            }
+        },
+        "title": "Very helpful when money is tight",
+        "likes": 0,
+        "source": "AFSv2",
+        "dates": {
+            "experiencedDate": null,
+            "publishedDate": "2020-10-13T12:27:11.000Z",
+            "updatedDate": null,
+            "submittedDate": null
+        },
+        "report": null,
+        "hasUnhandledReports": false,
+        "consumer": {
+            "id": "5978b0b40000ff000ab3e4ca",
+            "displayName": "Unknown",
+            "imageUrl": "",
+            "numberOfReviews": 3,
+            "countryCode": "US",
+            "hasImage": false,
+            "isVerified": false
+        },
+        "reply": {
+            "message": "Hi there! Thank you so much for this awesome 5-star review! We're happy to know that our products and other services are able to provide assistance and help you with securing that financial stability! It’s members like you that help makes MoneyLion ROAR! Given you’ve expressed a positive experience with MoneyLion, would you be open to also sharing this review on other review sites, including Google Play, Apple Store, BBB, and Wallethub? Thanks again for being the best part of MoneyLion!",
+            "publishedDate": "2020-10-13T19:00:11.543Z",
+            "updatedDate": null
+        },
+        "consumersReviewCountOnSameDomain": 1,
+        "consumersReviewCountOnSameLocation": null,
+        "productReviews": [],
+        "language": "en",
+        "location": null
+    }
+]
