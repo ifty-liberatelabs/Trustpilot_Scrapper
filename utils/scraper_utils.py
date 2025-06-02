@@ -1,5 +1,5 @@
 import httpx
-import asyncio
+import asyncio # Not strictly used but often good for async util files
 from bs4 import BeautifulSoup
 import json
 import logging
@@ -21,13 +21,19 @@ RETRYABLE_HTTPX_EXCEPTIONS_UTILS = (
     httpx.ReadTimeout, httpx.ConnectTimeout, httpx.PoolTimeout, httpx.ConnectError,
     httpx.RemoteProtocolError, httpx.ReadError, httpx.WriteError, httpx.NetworkError,
 )
+
 RETRYABLE_STATUS_CODES_UTILS = (429, 500, 502, 503, 504)
 
 def _predicate_should_retry_httpx_status_error_utils(exception_value: BaseException) -> bool:
     if isinstance(exception_value, httpx.HTTPStatusError):
+        # Explicitly DO NOT let tenacity retry 403 here; it should propagate to fetch_page_fresh_ip
+        if exception_value.response.status_code == 403:
+            logger.debug(f"ScraperUtils: HTTPStatusError 403 for {exception_value.request.url}. Not retrying at this level; allowing propagation.")
+            return False 
+            
         should_retry = exception_value.response.status_code in RETRYABLE_STATUS_CODES_UTILS
         if should_retry:
-            logger.warning(f"ScraperUtils: HTTPStatusError with retryable status code {exception_value.response.status_code} for URL {exception_value.request.url}. Will retry.")
+            logger.warning(f"ScraperUtils: HTTPStatusError with retryable status code {exception_value.response.status_code} for URL {exception_value.request.url}. Tenacity will retry.")
         return should_retry
     return False
 
@@ -52,26 +58,32 @@ def _prepare_url_for_page(base_url_str: str, page_num: int, languages: Optional[
         retry_if_exception(_predicate_should_retry_httpx_status_error_utils)
     ),
     before_sleep=before_sleep_log(logger, logging.INFO),
-    reraise=True
+    reraise=True # Essential: if tenacity exhausts retries, it re-raises the last exception
 )
 async def get_company_profile_data_async(
     url: str,
-    client: httpx.AsyncClient # Expect an httpx.AsyncClient
+    client: httpx.AsyncClient,
+    user_agent_string: Optional[str] = None 
 ) -> tuple[Optional[Dict[str, Any]], Optional[int]]:
-    logger.info(f"Async: Attempting to fetch company profile data from: {url}")
+    
+    headers_for_request = client.headers.copy()
+    if user_agent_string:
+        headers_for_request["User-Agent"] = user_agent_string
+    
+    
     try:
-        response = await client.get(url)
-        response.raise_for_status()
+        response = await client.get(url, headers=headers_for_request) 
+        response.raise_for_status() 
         logger.debug(f"Async: Successfully fetched page content for profile data from {url}. Status code: {response.status_code}")
 
-        soup = BeautifulSoup(response.text, 'lxml') 
-        script_tag = soup.find("script", id="__NEXT_DATA__", type="application/json") 
+        soup = BeautifulSoup(response.text, 'lxml')
+        script_tag = soup.find("script", id="__NEXT_DATA__", type="application/json")
 
         if not script_tag or not script_tag.string:
             logger.warning(f"Async: Could not find __NEXT_DATA__ script tag or it's empty on {url} for profile data.")
             return None, None
 
-        raw_json = json.loads(script_tag.string) 
+        raw_json = json.loads(script_tag.string)
         page_props = raw_json.get("props", {}).get("pageProps", {})
         business_unit_data = page_props.get("businessUnit")
         
@@ -82,7 +94,7 @@ async def get_company_profile_data_async(
             logger.info(f"Async: Found total review pages from profile load ({url}): {total_review_pages}")
 
         if not business_unit_data:
-            logger.warning(f"Async: No 'businessUnit' key found in pageProps for profile data from {url}. Page props (first 500 chars): {str(page_props)[:500]}")
+            logger.warning(f"Async: No 'businessUnit' key found in pageProps for profile data from {url}. Page props sample: {str(page_props)[:500]}")
             return None, total_review_pages
 
         profile_info = {
@@ -98,18 +110,16 @@ async def get_company_profile_data_async(
         logger.info(f"Async: Successfully parsed company profile data from {url}")
         return profile_info, total_review_pages
 
-    except json.JSONDecodeError as json_err:
+    except json.JSONDecodeError as json_err: # Specific error for JSON parsing failure
         logger.error(f"Async: Failed to decode JSON for profile data from {url}: {json_err}")
- 
-        if 'script_tag' in locals() and script_tag and script_tag.string:
-             logger.debug(f"Async: Content that failed to parse (profile data): {script_tag.string[:500]}...")
+        if 'response' in locals() and hasattr(response, 'text'):
+             logger.debug(f"Async: Content that failed to parse (profile data): {response.text[:500]}...")
         return None, None 
-    except (AttributeError, KeyError, TypeError) as e:
-        logger.error(f"Async: Error parsing __NEXT_DATA__ structure for profile data from {url}: {e}")
+    except (AttributeError, KeyError, TypeError) as e_parse: # Specific errors for __NEXT_DATA__ structure issues
+        logger.error(f"Async: Error parsing __NEXT_DATA__ structure for profile data from {url}: {e_parse}")
         return None, None
-    except Exception as e:
-        logger.error(f"Async: An unexpected error occurred in get_company_profile_data_async for {url}: {e}", exc_info=True)
-        return None, None
+    # No generic "except Exception:" here. HTTPStatusError (like 403) or other httpx.RequestError
+    # that tenacity doesn't retry (or exhausts retries for) will propagate up.
 
 
 @retry(
@@ -120,27 +130,32 @@ async def get_company_profile_data_async(
         retry_if_exception(_predicate_should_retry_httpx_status_error_utils)
     ),
     before_sleep=before_sleep_log(logger, logging.INFO),
-    reraise=True
+    reraise=True # Essential: if tenacity exhausts retries, it re-raises the last exception
 )
 async def get_reviews_from_page_async(
     url: str,
-    client: httpx.AsyncClient
+    client: httpx.AsyncClient,
+    user_agent_string: Optional[str] = None
 ) -> tuple[List[Dict[str, Any]], Optional[int]]:
-    logger.info(f"Async: Attempting to fetch reviews from: {url}")
-    try:
-        response = await client.get(url)
-        response.raise_for_status()
-        logger.debug(f"Async: Successfully fetched page content for reviews from {url}. Status code: {response.status_code}")
-        
 
-        soup = BeautifulSoup(response.text, 'lxml') # Sync
-        reviews_script_tag = soup.find("script", id="__NEXT_DATA__", type="application/json") # Sync
+    headers_for_request = client.headers.copy()
+    if user_agent_string:
+        headers_for_request["User-Agent"] = user_agent_string
+
+    # logger.info(f"Async: Attempting to fetch reviews from: {url} (UA: {headers_for_request.get('User-Agent')})")
+    try:
+        response = await client.get(url, headers=headers_for_request)
+        response.raise_for_status() # Let this raise HTTPStatusError
+        # logger.debug(f"Async: Successfully fetched page content for reviews from {url}. Status code: {response.status_code}")
+        
+        soup = BeautifulSoup(response.text, 'lxml')
+        reviews_script_tag = soup.find("script", id="__NEXT_DATA__", type="application/json")
 
         if not reviews_script_tag or not reviews_script_tag.string:
             logger.warning(f"Async: Could not find __NEXT_DATA__ script tag or it's empty on {url} for reviews.")
             return [], None
 
-        reviews_raw_json = json.loads(reviews_script_tag.string) # Sync
+        reviews_raw_json = json.loads(reviews_script_tag.string)
         page_props = reviews_raw_json.get("props", {}).get("pageProps", {})
         reviews = page_props.get("reviews")
         
@@ -149,21 +164,18 @@ async def get_reviews_from_page_async(
         if filters_data and "totalPages" in filters_data:
             total_pages_from_this_page = filters_data["totalPages"]
 
-        if reviews is None: # Check for None explicitly, as an empty list is valid (no reviews on page)
-            logger.warning(f"Async: No 'reviews' key found or it is None in pageProps for {url}. Page props (reviews): {str(page_props)[:500]}")
-            return [], total_pages_from_this_page # Return empty list for reviews
+        if reviews is None: 
+            logger.warning(f"Async: No 'reviews' key found or it is None in pageProps for {url}. Page props sample: {str(page_props)[:500]}")
+            return [], total_pages_from_this_page
 
-        logger.info(f"Async: Successfully parsed {len(reviews)} reviews from __NEXT_DATA__ on {url}")
+        # logger.info(f"Async: Successfully parsed {len(reviews)} reviews from __NEXT_DATA__ on {url}") # Worker logs this
         return reviews, total_pages_from_this_page
 
-    except json.JSONDecodeError as json_err:
+    except json.JSONDecodeError as json_err: # Specific error for JSON parsing failure
         logger.error(f"Async: Failed to decode JSON for reviews from {url}: {json_err}")
-        if 'reviews_script_tag' in locals() and reviews_script_tag and reviews_script_tag.string:
-            logger.debug(f"Async: Content that failed to parse (reviews): {reviews_script_tag.string[:500]}...")
-        return [], None # Or re-raise
-    except (AttributeError, KeyError, TypeError) as e:
-        logger.error(f"Async: Error parsing __NEXT_DATA__ structure for reviews from {url}: {e}")
+        if 'response' in locals() and hasattr(response, 'text'):
+            logger.debug(f"Async: Content that failed to parse (reviews): {response.text[:500]}...")
         return [], None
-    except Exception as e:
-        logger.error(f"Async: An unexpected error occurred in get_reviews_from_page_async for {url}: {e}", exc_info=True)
+    except (AttributeError, KeyError, TypeError) as e_parse: # Specific errors for __NEXT_DATA__ structure issues
+        logger.error(f"Async: Error parsing __NEXT_DATA__ structure for reviews from {url}: {e_parse}")
         return [], None

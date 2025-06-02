@@ -1,262 +1,386 @@
-import httpx # For the shared client
-import json
-import os
-import logging
 import asyncio
+import json
+import logging
+import os
 import random
+from contextlib import suppress
+from typing import Optional, List, Dict, Any # Added List, Dict, Any
 from urllib.parse import urlparse
-from typing import Optional, List, Dict, Any
+from utils.proxy_pool import PROXY_POOL
 
-# Import for .env loading
-from dotenv import load_dotenv
+# Import from your new helpers module
+from utils.helpers import fetch_page_fresh_ip 
 
-# Import your newly async utility functions
-from utils.scraper_utils import get_company_profile_data_async, get_reviews_from_page_async, _prepare_url_for_page
-from utils.total_review_pages import determine_total_review_pages_async
 import aiofiles
+import httpx
+from dotenv import load_dotenv
+from tenacity import RetryError
 
-from tenacity import RetryError 
+from utils.scraper_utils import (
+    _prepare_url_for_page,
+    get_company_profile_data_async,
+    # get_reviews_from_page_async, # This is now primarily called via fetch_page_fresh_ip for workers
+)
+from utils.total_review_pages import (
+    determine_total_review_pages_async,
+)
 
 logger = logging.getLogger(__name__)
+# BasicConfig should ideally be in main.py only.
+# If logger is used before main.py configures it, this can be a fallback.
+if not logger.handlers: 
+    logging.basicConfig(
+        level=logging.INFO,
+        format="%(asctime)s | %(name)s | %(levelname)s | %(message)s",
+    )
 
-# This is the worker that processes individual pages.
+# Moved USER_AGENTS to be accessible for passing to fetch_page_fresh_ip
+USER_AGENTS = [
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+    "(KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+    "AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4.1 Safari/605.1.15",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) "
+    "Gecko/20100101 Firefox/126.0",
+    "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
+    "(KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) "
+    "AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 "
+    "Mobile/15E148 Safari/604.1",
+    "Mozilla/5.0 (Linux; Android 14; Pixel 7) "
+    "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 "
+    "Mobile Safari/537.36",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+    "AppleWebKit/537.36 (KHTML, like Gecko) Edge/125.0.2535.51",
+    "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:126.0) "
+    "Gecko/20100101 Firefox/126.0",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+    "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko",
+]
+
+IP_ECHO_URL = "https://api.ipify.org?format=text"
+
+
+# ────────────────────────────────────────────────────────────────────────────
+#  Worker coroutine
+# ────────────────────────────────────────────────────────────────────────────
 async def trustpilot_page_scraping_worker(
     worker_id: int,
     page_queue: asyncio.Queue,
-    client: httpx.AsyncClient, 
+    # client: httpx.AsyncClient, # Client is no longer passed directly to worker; fetch_page_fresh_ip creates its own
     base_url_str: str,
     folder_name: str,
     total_pages_overall: int,
     saved_files_list: list,
     failed_pages_list: list,
     global_page_counter: list,
-    global_delay_event: asyncio.Event
+    global_delay_event: asyncio.Event,
 ):
-    logger.info(f"Trustpilot Async Worker {worker_id}: Starting...")
-    pages_processed_in_this_worker_batch = 0
+    logger.info("TP Worker %s: started", worker_id)
     WORKER_BATCH_SIZE = 5 
+    pages_in_batch = 0
 
     while True:
-        page_num = None
+        page_num = await page_queue.get()
         try:
-            if not global_delay_event.is_set(): 
-                logger.info(f"Trustpilot Async Worker {worker_id}: Global delay active, waiting...")
+            if page_num is None:
+                logger.info("TP Worker %s: stop signal received", worker_id)
+                return # Use return to exit the coroutine
+
+            if not global_delay_event.is_set():
+                logger.debug("TP Worker %s: waiting for global delay", worker_id)
                 await global_delay_event.wait()
-                logger.info(f"Trustpilot Async Worker {worker_id}: Global delay ended, resuming.")
+                logger.debug("TP Worker %s: global delay ended", worker_id)
 
-            page_num = await page_queue.get()
-            if page_num is None: 
-                logger.info(f"Trustpilot Async Worker {worker_id}: Received stop signal. Exiting.")
-                break
 
-            url_to_scrape = _prepare_url_for_page(base_url_str, page_num, languages="all")
+            url_to_scrape = _prepare_url_for_page(
+                base_url_str, page_num, languages="all"
+            )
+            
+            # Select an initial User-Agent for the first attempt by fetch_page_fresh_ip
+            initial_ua = random.choice(USER_AGENTS)
+            logger.info("TP Worker %s: page %s (Initial UA=%s)", worker_id, page_num, initial_ua)
 
-            try:
-                reviews_on_page, _ = await get_reviews_from_page_async(url_to_scrape, client)
+            # CORRECTED CALL: Pass USER_AGENTS list
+            reviews_on_page, proxy_used = await fetch_page_fresh_ip(
+                url_to_scrape,
+                initial_ua,
+                USER_AGENTS # Pass the list for retries
+            )
+            logger.info(
+                "TP Worker %s: page %s processing finished (via %s)",
+                worker_id,
+                page_num,
+                proxy_used if proxy_used else "default connection",
+            )
 
-                if not reviews_on_page: 
-                    logger.info(f"Trustpilot Async Worker {worker_id}: No reviews found on page {page_num} ({url_to_scrape}).")
-                    if page_num > 1: 
-                         failed_pages_list.append({"page": page_num, "worker_id": worker_id, "error_type": "NoReviewsFound", "error_message": "No reviews on page."})
-                else:
-                    logger.info(f"Trustpilot Async Worker {worker_id}: Retrieved {len(reviews_on_page)} reviews from page {page_num}.")
-                    file_path = os.path.join(folder_name, f"page{page_num}_reviews.json")
-                    async with aiofiles.open(file_path, 'w', encoding='utf-8') as f:
-                        await f.write(json.dumps(reviews_on_page, indent=4, ensure_ascii=False))
-                    logger.info(f"Trustpilot Async Worker {worker_id}: Successfully saved reviews to {file_path}")
-                    saved_files_list.append(file_path)
-                
-                global_page_counter[0] += 1 
+            if not reviews_on_page:
+                logger.warning(
+                    "TP Worker %s: no reviews on page %s after attempts", worker_id, page_num
+                )
+                # Only add to failed_pages_list if it's not due to a handled RetryError from fetch_page_fresh_ip
+                # (fetch_page_fresh_ip raises error if all retries fail, caught below)
+                # This path is taken if fetch_page_fresh_ip returns ([], proxy_used)
+                if page_num > 1: # Avoid flagging page 1 if it genuinely has no reviews but profile exists
+                    failed_pages_list.append(
+                        {
+                            "page": page_num,
+                            "worker_id": worker_id,
+                            "error_type": "NoReviewsFoundAfterAttempts",
+                            "error_message": "No reviews on page after processing with fetch_page_fresh_ip.",
+                        }
+                    )
+            else:
+                out_file = os.path.join(folder_name, f"page{page_num}_reviews.json")
+                async with aiofiles.open(out_file, "w", encoding="utf-8") as f:
+                    await f.write(
+                        json.dumps(reviews_on_page, indent=4, ensure_ascii=False)
+                    )
+                saved_files_list.append(out_file)
+                logger.info(
+                    "TP Worker %s: saved %s reviews → %s",
+                    worker_id,
+                    len(reviews_on_page),
+                    out_file,
+                )
 
-            except RetryError as e: 
-                last_exc = e.last_attempt.exception()
-                logger.error(f"Trustpilot Async Worker {worker_id}: All retries failed for page {page_num}. Last error: {type(last_exc).__name__} - {str(last_exc)}")
-                failed_pages_list.append({"page": page_num, "worker_id": worker_id, "error_type": type(last_exc).__name__, "error_message": str(last_exc)[:200]})
-            except Exception as e: 
-                logger.error(f"Trustpilot Async Worker {worker_id}: Error processing page {page_num}: {type(e).__name__} - {str(e)}")
-                failed_pages_list.append({"page": page_num, "worker_id": worker_id, "error_type": type(e).__name__, "error_message": str(e)[:200]})
+            global_page_counter[0] += 1
+            pages_in_batch += 1
 
-            await asyncio.sleep(random.uniform(1.0, 2.0)) 
-            pages_processed_in_this_worker_batch += 1
+            if pages_in_batch >= WORKER_BATCH_SIZE:
+                pages_in_batch = 0
+                delay = random.uniform(3, 5)
+                logger.debug("TP Worker %s: batch sleep %.2fs", worker_id, delay)
+                await asyncio.sleep(delay)
 
-            if pages_processed_in_this_worker_batch >= WORKER_BATCH_SIZE:
-                batch_delay = random.uniform(3.0, 5.0) 
-                logger.info(f"Trustpilot Async Worker {worker_id}: Completed batch of {pages_processed_in_this_worker_batch}. Sleeping for {batch_delay:.2f}s...")
-                await asyncio.sleep(batch_delay)
-                pages_processed_in_this_worker_batch = 0
-        
-        except asyncio.CancelledError:
-            logger.info(f"Trustpilot Async Worker {worker_id}: Cancelled.")
-            break
-        except Exception as e:
-            logger.exception(f"Trustpilot Async Worker {worker_id}: Unhandled critical exception in worker loop.")
-            break
+            await asyncio.sleep(random.uniform(1.0, 2.0))
+
+        except RetryError as e: # This catches RetryError if reraised by fetch_page_fresh_ip or tenacity in utils
+            last = e.last_attempt.exception()
+            failed_pages_list.append(
+                {
+                    "page": page_num,
+                    "worker_id": worker_id,
+                    "error_type": type(last).__name__,
+                    "error_message": str(last)[:200],
+                }
+            )
+            logger.error("TP Worker %s: retries exhausted on page %s. Last error: %s", worker_id, page_num, str(last))
+        except Exception as e: # Catch-all for other unexpected errors in the worker
+            failed_pages_list.append(
+                {
+                    "page": page_num,
+                    "worker_id": worker_id,
+                    "error_type": type(e).__name__,
+                    "error_message": str(e)[:200],
+                }
+            )
+            logger.exception("TP Worker %s: unexpected error on page %s", worker_id, page_num)
         finally:
-            if page_num is not None:
-                page_queue.task_done()
-            elif page_num is None and hasattr(page_queue, 'task_done'): 
-                page_queue.task_done()
+            page_queue.task_done()
 
 
-# This function will be called by FastAPI's BackgroundTasks
+# ────────────────────────────────────────────────────────────────────────────
+#  Main entry-point
+# ────────────────────────────────────────────────────────────────────────────
 async def run_scrape_trustpilot_reviews(
     base_url: str,
     num_pages_to_scrape_override: Optional[int] = None,
-    num_concurrent_workers: int = 5 
+    num_concurrent_workers: int = 3,
 ):
-    logger.info(f"Async Starting Trustpilot scraping service for: {base_url} with {num_concurrent_workers} workers.")
+    logger.info("=== Trustpilot scrape: %s ===", base_url)
 
-    # --- Load .env file and get proxy URL ---
     load_dotenv()
     proxy_url_from_env = os.getenv("HTTP_PROXY_URL")
-    # This variable will hold the string URL for the 'proxy' argument
-    client_proxy_setting = None 
-
+    proxy_for_main_client = None
     if proxy_url_from_env:
-        client_proxy_setting = proxy_url_from_env # Use the URL string directly
-        logger.info(f"Attempting to use proxy (singular argument): {client_proxy_setting}")
+        proxy_for_main_client = proxy_url_from_env # Use singular proxy for this client
+        logger.info("Main client proxy active: %s", proxy_for_main_client)
     else:
-        logger.info("HTTP_PROXY_URL not found in .env. Proceeding without proxy.")
-    # --- End of proxy configuration ---
+        logger.info("No proxy configured for main client (HTTP_PROXY_URL empty or not set)")
 
-    parsed_url_for_name = urlparse(base_url)
-    path_segments = [segment for segment in parsed_url_for_name.path.split('/') if segment]
-    company_name = "unknown_company_trustpilot"
-    if len(path_segments) >= 2 and path_segments[0].lower() == 'review':
-        company_name = path_segments[1]
-    base_output_dir = "scraped_data"
-    output_directory = os.path.join(base_output_dir, company_name)
-    os.makedirs(output_directory, exist_ok=True)
-    logger.info(f"Output directory: ./{output_directory}")
+    parsed = urlparse(base_url)
+    segs = [s for s in parsed.path.split("/") if s]
+    company_slug = segs[1] if len(segs) >= 2 and segs[0].lower() == "review" else "unknown_company"
+    output_dir = os.path.join("scraped_data", company_slug)
+    os.makedirs(output_dir, exist_ok=True)
+    logger.info("Output dir: ./%s", output_dir)
 
-    company_data_saved = False
-    saved_files_results = [] 
-    failed_pages_details = []
+    async def log_exit_ip(response: httpx.Response):
+        if IP_ECHO_URL in str(response.request.url): return
+        try:
+            # This client will use the proxy_for_main_client if set
+            async with httpx.AsyncClient(proxy=proxy_for_main_client, timeout=10.0, follow_redirects=True) as ip_client:
+                ip_resp = await ip_client.get(IP_ECHO_URL)
+                exit_ip = (ip_resp.text or "").strip()
+                logger.info(
+                    "IP-CHECK (MainClient) | %s %s → %s | exit_ip=%s",
+                    response.request.method, response.request.url, response.status_code, exit_ip,
+                )
+        except Exception as exc:
+            logger.debug("IP-CHECK (MainClient) failed: %s: %s", type(exc).__name__, exc)
 
-    async_client_headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36",
+    default_ua = random.choice(USER_AGENTS) # Pick one UA for the main client
+    client_headers = {
+        "User-Agent": default_ua,
         "Accept-Language": "en-US,en;q=0.9",
         "Accept-Encoding": "gzip, deflate, br",
-        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
-        "Connection": "keep-alive"
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+        "Connection": "keep-alive",
     }
 
-    # Pass client_proxy_setting to the AsyncClient's 'proxy' argument
     async with httpx.AsyncClient(
-        headers=async_client_headers, 
-        timeout=30.0, # Default timeout for operations
-        follow_redirects=True, 
-        proxy=client_proxy_setting # MODIFIED: Use singular 'proxy' and pass the URL string
-    ) as client:
-        logger.info(f"httpx.AsyncClient initialized. Proxy (singular argument) {'ACTIVE' if client_proxy_setting else 'INACTIVE'}.")
-        
-        logger.info(f"Async: Attempting to determine total review pages for: {base_url}")
+        headers=client_headers,
+        timeout=30.0,
+        follow_redirects=True,
+        proxy=proxy_for_main_client, # Singular proxy for this client
+        event_hooks={"response": [log_exit_ip] if proxy_for_main_client else None}, # Only hook if proxy is used
+    ) as client: # This client is used for initial page count and profile
+        logger.info("Main httpx client ready (UA=%s, Proxy: %s)", default_ua, proxy_for_main_client or "None")
+
+        logger.info("Discovering total review pages …")
         try:
-            total_pages_from_util = await determine_total_review_pages_async(base_url, client)
-        except Exception as e:
-            logger.error(f"Async: Error determining total pages: {type(e).__name__} - {str(e)}", exc_info=True)
-            total_pages_from_util = None
+            total_pages_found = await determine_total_review_pages_async(base_url, client)
+        except Exception:
+            logger.exception("Failed to read total pages, fall back to very high value")
+            total_pages_found = None
+
+        max_pages_to_scrape = total_pages_found or 20_000_000 # Default high if not found
+        source_of_page_count = f"utility ({total_pages_found} pages)" if total_pages_found else "fallback (20,000,000 pages)"
         
-        effective_max_pages = 20000000 # Fallback, can be adjusted
-        total_pages_determined_source = f"fallback ({effective_max_pages} pages)"
-        if total_pages_from_util is not None:
-            effective_max_pages = total_pages_from_util
-            total_pages_determined_source = f"utility (site indicates {effective_max_pages} pages)"
         if num_pages_to_scrape_override is not None and num_pages_to_scrape_override > 0:
-            if num_pages_to_scrape_override < effective_max_pages:
-                effective_max_pages = num_pages_to_scrape_override
-                total_pages_determined_source += f" (capped by user to {effective_max_pages})"
-        logger.info(f"Async: Final decision: scraping up to {effective_max_pages} page(s). Source: {total_pages_determined_source}")
+            if num_pages_to_scrape_override < max_pages_to_scrape :
+                 max_pages_to_scrape = num_pages_to_scrape_override
+                 source_of_page_count += f" (capped by user to {max_pages_to_scrape})"
+            else: # User override is >= total_pages_found (or fallback if total_pages_found is None)
+                 source_of_page_count += f" (user override {num_pages_to_scrape_override} >= determined/fallback, using determined/fallback)"
 
-        url_for_profile_data = _prepare_url_for_page(base_url, 1, languages="all")
-        logger.info(f"Async: Fetching company profile data from: {url_for_profile_data}")
+        logger.info("Will scrape up to %s page(s). Source: %s", max_pages_to_scrape, source_of_page_count)
+
+
+        company_profile_saved = False
+        first_page_url = _prepare_url_for_page(base_url, 1, languages="all")
         try:
-            company_data_to_save, _ = await get_company_profile_data_async(url_for_profile_data, client)
-            if company_data_to_save:
-                profile_file_path = os.path.join(output_directory, "page0_company_profile.json")
-                async with aiofiles.open(profile_file_path, 'w', encoding='utf-8') as f:
-                    await f.write(json.dumps(company_data_to_save, indent=4, ensure_ascii=False))
-                logger.info(f"Async: Successfully saved company profile data to {profile_file_path}")
-                company_data_saved = True
+            profile_ua = random.choice(USER_AGENTS) # Use a random UA for profile fetching too
+            # Pass the specific UA to the function
+            profile_data, _ = await get_company_profile_data_async(
+                first_page_url, client, user_agent_string=profile_ua
+            )
+            if profile_data:
+                profile_path = os.path.join(output_dir, "page0_company_profile.json")
+                async with aiofiles.open(profile_path, "w", encoding="utf-8") as f:
+                    await f.write(json.dumps(profile_data, indent=4, ensure_ascii=False))
+                logger.info("Saved company profile → %s", profile_path)
+                company_profile_saved = True
             else:
-                logger.warning(f"Async: Could not retrieve company profile data from {url_for_profile_data}.")
-        except Exception as e:
-            logger.error(f"Async: Error fetching/saving company profile: {type(e).__name__} - {str(e)}", exc_info=True)
+                logger.warning("Could not retrieve company profile data (returned None).")
+        except Exception:
+            logger.exception("Failed to fetch/save company profile")
 
-        if effective_max_pages > 0 and (company_data_saved or total_pages_from_util is not None):
-            page_queue = asyncio.Queue(maxsize=num_concurrent_workers * 2) 
-            global_page_counter = [0] 
-            global_delay_event = asyncio.Event()
-            global_delay_event.set() 
+        if max_pages_to_scrape == 0 or (not company_profile_saved and total_pages_found is None):
+            logger.warning("Skipping review scrape: max_pages is 0, or no profile and unknown page count.")
+            # Construct a minimal summary for this case
+            summary_status = "skipped_no_pages_or_profile"
+            logger.info(
+                "FINISHED | status=%s | files_saved=0 | failed_pages=0 | dir=./%s",
+                summary_status, output_dir,
+            )
+            return {
+                "status": summary_status, "output_directory": output_dir,
+                "files_saved": 0, "failed_pages": 0,
+                "proxy_for_main_client": proxy_for_main_client or "none",
+                "worker_proxies_used_from_pool": True # Since workers would use them
+            }
 
-            async def queue_filler_and_global_delay_manager_trustpilot():
-                logger.info("Trustpilot Async Queue filler: Starting to queue pages.")
-                for i in range(1, effective_max_pages + 1):
-                    await page_queue.put(i)
-                    if global_page_counter[0] > 0 and global_page_counter[0] % 50 == 0: 
-                        if global_delay_event.is_set(): 
-                            global_delay_event.clear() 
-                            delay_50_pages = random.uniform(5.0, 10.0) 
-                            logger.info(f"--- TP ASYNC GLOBAL: Processed approx {global_page_counter[0]} pages. Global 50-page delay for {delay_50_pages:.2f}s ---")
-                            await asyncio.sleep(delay_50_pages)
-                            global_delay_event.set() 
-                            logger.info(f"--- TP ASYNC GLOBAL: Global 50-page delay ended. ---")
-                for _ in range(num_concurrent_workers):
-                    await page_queue.put(None) 
-                logger.info("Trustpilot Async Queue filler: All pages and sentinels queued.")
+        page_q = asyncio.Queue(maxsize=num_concurrent_workers * 2)
+        global_counter = [0]
+        global_delay_event = asyncio.Event()
+        global_delay_event.set()
 
-            filler_task = asyncio.create_task(queue_filler_and_global_delay_manager_trustpilot())
-            worker_tasks = []
-            for i in range(num_concurrent_workers):
-                task = asyncio.create_task(
-                    trustpilot_page_scraping_worker(
-                        worker_id=i + 1, page_queue=page_queue, client=client,
-                        base_url_str=base_url,
-                        folder_name=output_directory,
-                        total_pages_overall=effective_max_pages,
-                        saved_files_list=saved_files_results,
-                        failed_pages_list=failed_pages_details,
-                        global_page_counter=global_page_counter,
-                        global_delay_event=global_delay_event,
-                    )
+        async def queue_filler():
+            logger.info("Queue filler: Starting to queue pages (1 to %s).", max_pages_to_scrape)
+            for p in range(1, max_pages_to_scrape + 1):
+                await page_q.put(p)
+                # Global delay logic needs to be robust against global_counter not being updated if workers fail early
+                if global_counter[0] and global_counter[0] % 50 == 0: 
+                    # Check if not already delaying to avoid multiple logs/sleeps if counter increments slowly
+                    if global_delay_event.is_set(): 
+                        global_delay_event.clear()
+                        delay = random.uniform(5, 10)
+                        logger.info("--- GLOBAL 50-page pause %.2fs (pages processed: %s) ---", delay, global_counter[0])
+                        await asyncio.sleep(delay)
+                        global_delay_event.set()
+                        logger.info("--- GLOBAL 50-page pause ended. ---")
+            for _ in range(num_concurrent_workers):
+                await page_q.put(None)
+            logger.info("Queue filler: All pages and sentinels queued.")
+
+        saved_files, failed_pages = [], []
+        filler_task = asyncio.create_task(queue_filler())
+        worker_tasks = [
+            asyncio.create_task(
+                trustpilot_page_scraping_worker(
+                    i + 1,
+                    page_q,
+                    # client, # Client is NOT passed to worker anymore
+                    base_url,
+                    output_dir,
+                    max_pages_to_scrape,
+                    saved_files,
+                    failed_pages,
+                    global_counter,
+                    global_delay_event,
                 )
-                worker_tasks.append(task)
+            )
+            for i in range(num_concurrent_workers)
+        ]
 
-            await filler_task
-            logger.info("Trustpilot Async Queue filler task completed.")
-            await page_queue.join() 
-            logger.info("Trustpilot Async All items from page queue processed.")
-            
-            worker_gather_results = await asyncio.gather(*worker_tasks, return_exceptions=True)
-            for i, res in enumerate(worker_gather_results):
-                if isinstance(res, Exception): 
-                    logger.error(f"Trustpilot Async Worker {i+1} terminated with unhandled exception: {res}", exc_info=True)
-            logger.info("Trustpilot Async All worker tasks completed.")
-        else:
-            logger.info("Async: Skipping review page scraping due to no pages to scrape or initial profile fetch failure/no pages found.")
+        await filler_task
+        logger.info("Queue filler task completed.")
+        try:
+            await page_q.join() # Wait for queue to be fully processed
+            logger.info("All items from page queue processed by workers.")
+        except Exception as e:
+            logger.error(f"Error during page_q.join(): {e}", exc_info=True)
+        
+        # Wait for all worker tasks to complete and gather results/exceptions
+        worker_results = await asyncio.gather(*worker_tasks, return_exceptions=True)
+        for i, result in enumerate(worker_results):
+            if isinstance(result, Exception):
+                logger.error(f"Worker {i+1} ended with an unhandled exception: {result}", exc_info=result)
+        logger.info("All worker tasks have finished or been cancelled.")
 
-    pages_saved_count = len(saved_files_results)
-    total_files_saved = pages_saved_count + (1 if company_data_saved else 0)
-    final_status = "success" if total_files_saved > 0 else "no_data_saved"
-    if failed_pages_details:
-        final_status = "partial_success" if total_files_saved > 0 else "error"
+
+    total_review_pages_saved = len(saved_files)
+    total_files_overall = total_review_pages_saved + (1 if company_profile_saved else 0)
     
-    summary_message = (f"Async Scraping for {base_url} finished. Status: {final_status}. "
-                       f"Targeted up to {effective_max_pages} page(s). "
-                       f"Company Profile Saved: {company_data_saved}. "
-                       f"Review Pages Saved: {pages_saved_count}. "
-                       f"Failed Pages: {len(failed_pages_details)}. "
-                       f"Data in ./{output_directory}. "
-                       f"Proxy Used: {'Yes, via ' + client_proxy_setting if client_proxy_setting else 'No'}.")
-    logger.info(summary_message)
+    current_status = "error" # Default status
+    if total_files_overall > 0:
+        current_status = "partial_success" if failed_pages else "success"
+    elif failed_pages: # No files saved, but there were failures
+        current_status = "error"
+    else: # No files saved, no failures (e.g. 0 pages to scrape)
+        current_status = "no_data_saved_or_needed"
 
+
+    logger.info(
+        "FINISHED | status=%s | files_saved=%s (profile: %s, reviews: %s) | failed_pages=%s | dir=./%s",
+        current_status,
+        total_files_overall,
+        company_profile_saved,
+        total_review_pages_saved,
+        len(failed_pages),
+        output_dir,
+    )
     return {
-        "status": final_status, "message": summary_message, "output_directory": output_directory,
-        "total_files_saved": total_files_saved, "company_profile_saved": company_data_saved,
-        "review_pages_saved_count": pages_saved_count,
-        "failed_pages_count": len(failed_pages_details),
-        "failed_pages_list_summary": failed_pages_details[:10], 
-        "effective_max_pages_used": effective_max_pages,
-        "total_pages_source_info": total_pages_determined_source,
-        "proxy_enabled": bool(client_proxy_setting) 
+        "status": current_status,
+        "output_directory": output_dir,
+        "files_saved": total_files_overall,
+        "company_profile_saved": company_profile_saved,
+        "review_pages_saved_count": total_review_pages_saved,
+        "failed_pages_count": len(failed_pages),
+        "proxy_for_main_client": proxy_for_main_client or "none",
+        "worker_proxies_used_from_pool": True if PROXY_POOL else False, # Assuming PROXY_POOL implies usage
+        "failed_pages_summary_sample": failed_pages[:5] # Sample of first 5 failures
     }
